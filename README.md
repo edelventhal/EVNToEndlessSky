@@ -1,7 +1,15 @@
 # EVNToEndlessSky
 Contains scripts and resources for porting the entirety of Escape Velocity Nova to the open source game Endless Sky. It is very much in-progress, and some elements will never adapt perfectly due to gameplay differences.
 
-### evnparse
+Since all of these scripts are node.js scripts and have dependencies, you must run the following before you can run one of the scripts:
+
+    cd evnparse; npm install
+
+and
+
+    cd evn-to-es; npm install
+
+### Getting the data from EVN
 The data is pulled from EVN through a few steps. First, the Mac OS X open source application, Rezilla (https://sourceforge.net/projects/rezilla/) is used to open up the EVN Data files (they can be found by viewing package contents in EV Nova.app) and then export the data to an XML "map".
 
 These XML map files can be found in the novaExports/dataXML folder in this repository. The format of the map files is such that all of the byte data for a given entry is base64 encoded.
