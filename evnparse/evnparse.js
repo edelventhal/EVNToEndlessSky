@@ -69,11 +69,12 @@ EvnParse.prototype.parse = function( sourcePaths, exportPath )
         var filePath = files[ fileIndex ];
         console.log( "parsing file " + filePath );
         var text = fs.readFileSync( filePath, "utf8" );
-        parseString( text, this.parseFile.bind( this ) );
+        parseString( text, this._parseFile.bind( this ) );
     }
 };
 
-EvnParse.prototype.parseFile = function( err, data )
+//parses a single file. You should not call this directly
+EvnParse.prototype._parseFile = function( err, data )
 {
     if ( err )
     {
@@ -85,7 +86,7 @@ EvnParse.prototype.parseFile = function( err, data )
         var types = data.RezMap.TypesArray[0].Type;
         for ( typeIndex = 0; typeIndex < types.length; typeIndex++ )
         {
-            this.parseType( types[ typeIndex ] );
+            this._parseType( types[ typeIndex ] );
         }
     }
     
@@ -93,11 +94,12 @@ EvnParse.prototype.parseFile = function( err, data )
     this.fileParsesRemaining--;
     if ( this.fileParsesRemaining <= 0 )
     {
-        this.portData();
+        this._saveData();
     }
 };
 
-EvnParse.prototype.parseType = function( typeData )
+//parses a single type within a single file. do not call this directly
+EvnParse.prototype._parseType = function( typeData )
 {
     var type = typeData.TypeCode[0];
     console.log( "parsing type " + type );
@@ -111,16 +113,17 @@ EvnParse.prototype.parseType = function( typeData )
     var resources = typeData.ResourcesArray[0].Resource;
     for ( resourceIndex = 0; resourceIndex < resources.length; resourceIndex++ )
     {
-        this.parseResource( resources[ resourceIndex ], this.results[ type ], type );
+        this._parseResource( resources[ resourceIndex ], this.results[ type ], type );
     }
 };
 
-EvnParse.prototype.parseResource = function( resourceData, resourceArray, type )
+//parses a single resource within a single type within a single file. do not call this directly
+EvnParse.prototype._parseResource = function( resourceData, resourceArray, type )
 {
     //base64 decode the data into useable string data
     var decodedData = atob( resourceData.ResourceData[0] );
     //then turn it into a byte array, which we'll parse through
-    var dataBytes = this.stringToBytes( decodedData );
+    var dataBytes = this._stringToBytes( decodedData );
     
     var resource =
     {
@@ -137,17 +140,21 @@ EvnParse.prototype.parseResource = function( resourceData, resourceArray, type )
     
     if ( this.parsingTemplate )
     {
-        this.interpretTemplateData( resource, type );
+        this._interpretTemplateData( resource, type );
     }
     else
     {
-        this.interpretData( resource, type );
+        this._interpretData( resource, type );
     }
     
     resourceArray.push( resource );
 };
 
-EvnParse.prototype.interpretData = function( resource, type )
+//interprets the data for a single resource. this is relatively complicated, and based
+//upon the ResEdit data types found here: https://developer.apple.com/legacy/library/documentation/mac/pdf/ResEditReference.pdf (pg 93)
+//not all ResEdit types are included -- only those that are used by the EVN data files
+//one additional type, Tnnn was added, as a fix for an edge case with flët/ActivateOn
+EvnParse.prototype._interpretData = function( resource, type )
 {
     resource.data = {};
     
@@ -166,41 +173,41 @@ EvnParse.prototype.interpretData = function( resource, type )
             switch ( element.type )
             {
                 case "DBYT":
-                    result = this.bytesToNumber( resource.rawData.slice( byteOffset, byteOffset + 1 ) );
+                    result = this._bytesToNumber( resource.rawData.slice( byteOffset, byteOffset + 1 ) );
                     byteOffset += 1;
                     break;
                 case "DWRD":
-                    result = this.bytesToNumber( resource.rawData.slice( byteOffset, byteOffset + 2 ) );
+                    result = this._bytesToNumber( resource.rawData.slice( byteOffset, byteOffset + 2 ) );
                     byteOffset += 2;
                     break;
                 case "DLNG":
-                    result = this.bytesToNumber( resource.rawData.slice( byteOffset, byteOffset + 4 ) );
+                    result = this._bytesToNumber( resource.rawData.slice( byteOffset, byteOffset + 4 ) );
                     byteOffset += 4;
                     break;
                 case "HBYT": 
-                    result = this.bytesToHexString( resource.rawData.slice( byteOffset, byteOffset + 1 ) );
+                    result = this._bytesToHexString( resource.rawData.slice( byteOffset, byteOffset + 1 ) );
                     byteOffset += 1;
                     break;
                 case "HWRD": 
-                    result = this.bytesToHexString( resource.rawData.slice( byteOffset, byteOffset + 2 ) );
+                    result = this._bytesToHexString( resource.rawData.slice( byteOffset, byteOffset + 2 ) );
                     byteOffset += 2;
                     break;
                 case "HLNG": 
-                    result = this.bytesToHexString( resource.rawData.slice( byteOffset, byteOffset + 4 ) );
+                    result = this._bytesToHexString( resource.rawData.slice( byteOffset, byteOffset + 4 ) );
                     byteOffset += 4;
                     break;
                 case "RECT":
                     result =
                     [
-                        this.bytesToNumber( resource.rawData.slice( byteOffset    , byteOffset + 2 ) ),
-                        this.bytesToNumber( resource.rawData.slice( byteOffset + 2, byteOffset + 4 ) ),
-                        this.bytesToNumber( resource.rawData.slice( byteOffset + 4, byteOffset + 6 ) ),
-                        this.bytesToNumber( resource.rawData.slice( byteOffset + 6, byteOffset + 8 ) )
+                        this._bytesToNumber( resource.rawData.slice( byteOffset    , byteOffset + 2 ) ),
+                        this._bytesToNumber( resource.rawData.slice( byteOffset + 2, byteOffset + 4 ) ),
+                        this._bytesToNumber( resource.rawData.slice( byteOffset + 4, byteOffset + 6 ) ),
+                        this._bytesToNumber( resource.rawData.slice( byteOffset + 6, byteOffset + 8 ) )
                     ];
                     byteOffset += 8;
                     break;
                 case "CSTR":
-                    result = this.bytesToCString( resource.rawData.slice( byteOffset ) );
+                    result = this._bytesToCString( resource.rawData.slice( byteOffset ) );
                     byteOffset += result.length + 1;
                     break;
                 
@@ -218,7 +225,7 @@ EvnParse.prototype.interpretData = function( resource, type )
                     
                     if ( element.type.indexOf( "C" ) === 0 )
                     {
-                        result = this.bytesToString( newBytes, true );
+                        result = this._bytesToString( newBytes, true );
                     }
                     //custom type; I made it because ActivateOn has baffling bullshit.
                     //the same as "C", except if the first character is blank, returns an empty string.
@@ -226,7 +233,7 @@ EvnParse.prototype.interpretData = function( resource, type )
                     //however, it still moves on the same byteOffset amount
                     else if ( element.type.indexOf( "T" ) === 0 )
                     {
-                        result = this.bytesToCString( newBytes );
+                        result = this._bytesToCString( newBytes );
                     }
                     byteOffset += byteCount;
                 }
@@ -238,19 +245,19 @@ EvnParse.prototype.interpretData = function( resource, type )
             }
             
             //sometimes there are duped names, we must handle that
-            var key = this.getNextAvailableKey( resource.data, element.name );
+            var key = this._getNextAvailableKey( resource.data, element.name );
             resource.data[ key ] = result;
         }
     }
     //special case
     else if ( type === "STR#" )
     {
-        resource.data = this.arrayFromBytes( resource.rawData );
+        resource.data = this._arrayFromBytes( resource.rawData );
     }
     
     if ( this.includeRawData )
     {
-        resource.rawData = this.bytesToHexString( resource.rawData, " " );
+        resource.rawData = this._bytesToHexString( resource.rawData, " " );
     }
     else
     {
@@ -258,7 +265,9 @@ EvnParse.prototype.interpretData = function( resource, type )
     }
 };
 
-EvnParse.prototype.getNextAvailableKey = function( data, desiredKey )
+//EVN sometimes uses the same name in templates twice.
+//for those cases, this function gives a key name that won't trample anything else
+EvnParse.prototype._getNextAvailableKey = function( data, desiredKey )
 {
     var key = desiredKey;
     var lastAddedDigit = -1;
@@ -279,7 +288,9 @@ EvnParse.prototype.getNextAvailableKey = function( data, desiredKey )
     return key;
 };
 
-EvnParse.prototype.interpretTemplateData = function( resource, type )
+//this is for creating a template file. give TMPL data, this function will
+//interpret it into nice JS data.
+EvnParse.prototype._interpretTemplateData = function( resource, type )
 {
     resource.templates = [];
     var lastBlankOffset = -1;
@@ -288,12 +299,12 @@ EvnParse.prototype.interpretTemplateData = function( resource, type )
     for ( byteOffset = 0; byteOffset < resource.rawData.length; byteOffset++ )
     {
         //this is imperfect... 32 is ' ', and there appears to be a divider between values that
-        //can be any non-character byte. not sure how it actually works
+        //can be any non-character byte. not sure how it actually works... probably is the same array type that STR# uses
         if ( resource.rawData[ byteOffset ] < 32 )
         {
             if ( lastBlankOffset >= 0 )
             {
-                var resourceString = this.bytesToString( resource.rawData.slice( lastBlankOffset + 1, byteOffset ) );
+                var resourceString = this._bytesToString( resource.rawData.slice( lastBlankOffset + 1, byteOffset ) );
                 if ( resourceString.length >= 4 )
                 {
                     resource.templates.push(
@@ -311,7 +322,10 @@ EvnParse.prototype.interpretTemplateData = function( resource, type )
     delete( resource.rawData );
 };
 
-EvnParse.prototype.bytesToString = function( bytes, trim )
+//converts an array of bytes into a string. each byte is expected to be one character.
+//optionally, you can trim empty bytes from both ends (this is recommended in most
+//cases, but is not default behavior)
+EvnParse.prototype._bytesToString = function( bytes, trim )
 {
     if ( trim )
     {
@@ -343,21 +357,23 @@ EvnParse.prototype.bytesToString = function( bytes, trim )
 
 //goes through the bytes until one equals 0, then returns the string up to that point.
 //you can use the length of the string to determine how many bytes we had to go through.
-EvnParse.prototype.bytesToCString = function( bytes )
+EvnParse.prototype._bytesToCString = function( bytes )
 {
     var byteIndex;
     for ( byteIndex = 0; byteIndex < bytes.length; byteIndex++ )
     {
         if ( bytes[ byteIndex ] === 0 )
         {
-            return this.bytesToString( bytes.slice( 0, byteIndex ) );
+            return this._bytesToString( bytes.slice( 0, byteIndex ) );
         }
     }
     
-    return this.bytesToString( bytes );
+    return this._bytesToString( bytes );
 };
 
-EvnParse.prototype.stringToBytes = function( str )
+//given a string, returns an array of bytes. each string character is considered a
+//single byte. this function is important for parsing Rezilla's XML file data fields.
+EvnParse.prototype._stringToBytes = function( str )
 {
     var bytes = [];
     var i;
@@ -368,7 +384,9 @@ EvnParse.prototype.stringToBytes = function( str )
     return bytes;
 };
 
-EvnParse.prototype.bytesToNumber = function( x, signed )
+//converts an array of bytes into a number. by default, this expects a signed number.
+//when signed, the number becomes negative once the value goes past half of the max.
+EvnParse.prototype._bytesToNumber = function( x, signed )
 {
     var val = 0;
     var i;
@@ -396,7 +414,10 @@ EvnParse.prototype.bytesToNumber = function( x, signed )
     return val;
 };
 
-EvnParse.prototype.bytesToHexString = function( arr, prettifier )
+//converts an array of bytes into a hex string. this is used for flags.
+//you can also include a prettifier that goes between bytes, like a space.
+//this is nice when you need to debug a really long hex string.
+EvnParse.prototype._bytesToHexString = function( arr, prettifier )
 {
     var result = "";
     var z;
@@ -428,9 +449,9 @@ EvnParse.prototype.bytesToHexString = function( arr, prettifier )
 //at the beginning of each element is a single byte saying how many bytes that element is
 //you can't know how long the array is in bytes until you call this.
 //you can pass in an obj with { length: 0 } for byteCountObj to find the byte length afterwards
-EvnParse.prototype.arrayFromBytes = function( bytes, byteCountObj )
+EvnParse.prototype._arrayFromBytes = function( bytes, byteCountObj )
 {
-    var elementCount = this.bytesToNumber( [ bytes[0] ], false );
+    var elementCount = this._bytesToNumber( [ bytes[0] ], false );
     var elements = [];
             
     var nextWordOffset = -1;
@@ -442,7 +463,7 @@ EvnParse.prototype.arrayFromBytes = function( bytes, byteCountObj )
         {
             if ( nextWordOffset >= 0 )
             {
-                elements.push( this.bytesToString( bytes.slice( startOffset + 1, nextWordOffset ) ) );
+                elements.push( this._bytesToString( bytes.slice( startOffset + 1, nextWordOffset ) ) );
             }
             
             if ( nextWordOffset < bytes.length )
@@ -465,7 +486,8 @@ EvnParse.prototype.arrayFromBytes = function( bytes, byteCountObj )
     return elements;
 };
 
-EvnParse.prototype.portData = function()
+//this is the final function that is called. it will save the results to the disk.
+EvnParse.prototype._saveData = function()
 {
     var data = this.results;
     
