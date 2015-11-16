@@ -1,0 +1,3124 @@
+{
+	"chär": [
+		{
+			"name": "Cash",
+			"type": "DLNG"
+		},
+		{
+			"name": "ShipType",
+			"type": "DWRD"
+		},
+		{
+			"name": "System1",
+			"type": "DWRD"
+		},
+		{
+			"name": "System2",
+			"type": "DWRD"
+		},
+		{
+			"name": "System3",
+			"type": "DWRD"
+		},
+		{
+			"name": "System4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Status1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Status2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Status3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Status4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Kills",
+			"type": "DWRD"
+		},
+		{
+			"name": "IntroPict1",
+			"type": "DWRD"
+		},
+		{
+			"name": "IntroPict2",
+			"type": "DWRD"
+		},
+		{
+			"name": "IntroPict3",
+			"type": "DWRD"
+		},
+		{
+			"name": "IntroPict4",
+			"type": "DWRD"
+		},
+		{
+			"name": "PictDelay1",
+			"type": "DWRD"
+		},
+		{
+			"name": "PictDelay2",
+			"type": "DWRD"
+		},
+		{
+			"name": "PictDelay3",
+			"type": "DWRD"
+		},
+		{
+			"name": "PictDelay4",
+			"type": "DWRD"
+		},
+		{
+			"name": "IntroTextID",
+			"type": "DWRD"
+		},
+		{
+			"name": "OnStart",
+			"type": "C100"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "StartDay",
+			"type": "DWRD"
+		},
+		{
+			"name": "StartMonth",
+			"type": "DWRD"
+		},
+		{
+			"name": "StartYear",
+			"type": "DWRD"
+		},
+		{
+			"name": "DatePrefix",
+			"type": "C010"
+		},
+		{
+			"name": "DateSuffix",
+			"type": "C010"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"cölr": [
+		{
+			"name": "ButtonUp",
+			"type": "HLNG"
+		},
+		{
+			"name": "ButtonDown",
+			"type": "HLNG"
+		},
+		{
+			"name": "ButtonGrey",
+			"type": "HLNG"
+		},
+		{
+			"name": "MenuFont",
+			"type": "C040"
+		},
+		{
+			"name": "MenuFontSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuColor1",
+			"type": "HLNG"
+		},
+		{
+			"name": "MenuColor2",
+			"type": "HLNG"
+		},
+		{
+			"name": "GridBright",
+			"type": "HLNG"
+		},
+		{
+			"name": "GridDim",
+			"type": "HLNG"
+		},
+		{
+			"name": "ProgressBar",
+			"type": "RECT"
+		},
+		{
+			"name": "ProgBright",
+			"type": "HLNG"
+		},
+		{
+			"name": "ProgDim",
+			"type": "HLNG"
+		},
+		{
+			"name": "ProgOutline",
+			"type": "HLNG"
+		},
+		{
+			"name": "MenuButton1x",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton1y",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton2x",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton2y",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton3x",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton3y",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton4x",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton4y",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton5x",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton5y",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton6x",
+			"type": "DWRD"
+		},
+		{
+			"name": "MenuButton6y",
+			"type": "DWRD"
+		},
+		{
+			"name": "FloatingMap",
+			"type": "HLNG"
+		},
+		{
+			"name": "ListText",
+			"type": "HLNG"
+		},
+		{
+			"name": "ListBkgnd",
+			"type": "HLNG"
+		},
+		{
+			"name": "ListHilite",
+			"type": "HLNG"
+		},
+		{
+			"name": "EscortHilite",
+			"type": "HLNG"
+		},
+		{
+			"name": "ButtonFont",
+			"type": "C040"
+		},
+		{
+			"name": "ButtonFontSz",
+			"type": "DWRD"
+		},
+		{
+			"name": "LogoX",
+			"type": "DWRD"
+		},
+		{
+			"name": "LogoY",
+			"type": "DWRD"
+		},
+		{
+			"name": "RolloverX",
+			"type": "DWRD"
+		},
+		{
+			"name": "RolloverY",
+			"type": "DWRD"
+		},
+		{
+			"name": "Slide1X",
+			"type": "DWRD"
+		},
+		{
+			"name": "Slide1Y",
+			"type": "DWRD"
+		},
+		{
+			"name": "Slide2X",
+			"type": "DWRD"
+		},
+		{
+			"name": "Slide2Y",
+			"type": "DWRD"
+		},
+		{
+			"name": "Slide3X",
+			"type": "DWRD"
+		}
+	],
+	"ïntf": [
+		{
+			"name": "BrightText",
+			"type": "HLNG"
+		},
+		{
+			"name": "DimText",
+			"type": "HLNG"
+		},
+		{
+			"name": "RadarArea",
+			"type": "RECT"
+		},
+		{
+			"name": "BrightRadar",
+			"type": "HLNG"
+		},
+		{
+			"name": "DimRadar",
+			"type": "HLNG"
+		},
+		{
+			"name": "ShieldArea",
+			"type": "RECT"
+		},
+		{
+			"name": "ShieldColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "ArmorArea",
+			"type": "RECT"
+		},
+		{
+			"name": "ArmorColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "FuelArea",
+			"type": "RECT"
+		},
+		{
+			"name": "FuelFull",
+			"type": "HLNG"
+		},
+		{
+			"name": "FuelPartial",
+			"type": "HLNG"
+		},
+		{
+			"name": "NavArea",
+			"type": "RECT"
+		},
+		{
+			"name": "WeapArea",
+			"type": "RECT"
+		},
+		{
+			"name": "TargArea",
+			"type": "RECT"
+		},
+		{
+			"name": "CargoArea",
+			"type": "RECT"
+		},
+		{
+			"name": "StatusFont",
+			"type": "C040"
+		},
+		{
+			"name": "StatFontSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "SubtitleSize",
+			"type": "DWRD"
+		}
+	],
+	"shïp": [
+		{
+			"name": "Holds",
+			"type": "DWRD"
+		},
+		{
+			"name": "Shield",
+			"type": "DWRD"
+		},
+		{
+			"name": "Accel",
+			"type": "DWRD"
+		},
+		{
+			"name": "Speed",
+			"type": "DWRD"
+		},
+		{
+			"name": "Maneuver",
+			"type": "DWRD"
+		},
+		{
+			"name": "Fuel",
+			"type": "DWRD"
+		},
+		{
+			"name": "FreeMass",
+			"type": "DWRD"
+		},
+		{
+			"name": "Armor",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShieldRech",
+			"type": "DWRD"
+		},
+		{
+			"name": "WeapType",
+			"type": "RECT"
+		},
+		{
+			"name": "WeapCount",
+			"type": "RECT"
+		},
+		{
+			"name": "AmmoLoad",
+			"type": "RECT"
+		},
+		{
+			"name": "MaxGun",
+			"type": "DWRD"
+		},
+		{
+			"name": "MaxTur",
+			"type": "DWRD"
+		},
+		{
+			"name": "TechLevel",
+			"type": "DWRD"
+		},
+		{
+			"name": "Cost",
+			"type": "DLNG"
+		},
+		{
+			"name": "DeathDelay",
+			"type": "DWRD"
+		},
+		{
+			"name": "ArmorRech",
+			"type": "DWRD"
+		},
+		{
+			"name": "Explode1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Explode2",
+			"type": "DWRD"
+		},
+		{
+			"name": "DispWeight",
+			"type": "DWRD"
+		},
+		{
+			"name": "Mass",
+			"type": "DWRD"
+		},
+		{
+			"name": "Length",
+			"type": "DWRD"
+		},
+		{
+			"name": "InherentAI",
+			"type": "DWRD"
+		},
+		{
+			"name": "Crew",
+			"type": "DWRD"
+		},
+		{
+			"name": "Strength",
+			"type": "DWRD"
+		},
+		{
+			"name": "InherentGovt",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "PodCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "DefaultItems",
+			"type": "RECT"
+		},
+		{
+			"name": "ItemCount",
+			"type": "RECT"
+		},
+		{
+			"name": "FuelRegen",
+			"type": "DWRD"
+		},
+		{
+			"name": "SkillVar",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags2",
+			"type": "HWRD"
+		},
+		{
+			"name": "Contributes",
+			"type": "HLNG"
+		},
+		{
+			"name": "Contributes",
+			"type": "HLNG"
+		},
+		{
+			"name": "Availability",
+			"type": "C0FF"
+		},
+		{
+			"name": "AppearOn",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnPurchase",
+			"type": "C100"
+		},
+		{
+			"name": "Deionize",
+			"type": "DWRD"
+		},
+		{
+			"name": "IonizeMax",
+			"type": "DWRD"
+		},
+		{
+			"name": "KeyCarried",
+			"type": "DWRD"
+		},
+		{
+			"name": "DefaultItms2",
+			"type": "RECT"
+		},
+		{
+			"name": "ItemCount",
+			"type": "RECT"
+		},
+		{
+			"name": "Require",
+			"type": "HLNG"
+		},
+		{
+			"name": "Require",
+			"type": "HLNG"
+		},
+		{
+			"name": "BuyRandom",
+			"type": "DWRD"
+		},
+		{
+			"name": "HireRandom",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "C044"
+		},
+		{
+			"name": "OnCapture",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnRetire",
+			"type": "C0FF"
+		},
+		{
+			"name": "ShortName",
+			"type": "C040"
+		},
+		{
+			"name": "CommName",
+			"type": "C020"
+		},
+		{
+			"name": "LongName",
+			"type": "C080"
+		},
+		{
+			"name": "MovieFile",
+			"type": "C020"
+		},
+		{
+			"name": "WeapType2",
+			"type": "RECT"
+		},
+		{
+			"name": "WeapCount2",
+			"type": "RECT"
+		},
+		{
+			"name": "AmmoLoad2",
+			"type": "RECT"
+		},
+		{
+			"name": "Subtitle",
+			"type": "C040"
+		},
+		{
+			"name": "Flags3",
+			"type": "HWRD"
+		},
+		{
+			"name": "UpgradeTo",
+			"type": "DWRD"
+		},
+		{
+			"name": "EscUpgrdCost",
+			"type": "DLNG"
+		},
+		{
+			"name": "EscSellValue",
+			"type": "DLNG"
+		},
+		{
+			"name": "EscortType",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"röid": [
+		{
+			"name": "Strength",
+			"type": "DWRD"
+		},
+		{
+			"name": "SpinRate",
+			"type": "DWRD"
+		},
+		{
+			"name": "YieldType",
+			"type": "DWRD"
+		},
+		{
+			"name": "YieldQty",
+			"type": "DWRD"
+		},
+		{
+			"name": "PartCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "PartColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "FragType1",
+			"type": "DWRD"
+		},
+		{
+			"name": "FragType2",
+			"type": "DWRD"
+		},
+		{
+			"name": "FragCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "ExplodeType",
+			"type": "DWRD"
+		},
+		{
+			"name": "Mass",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"ränk": [
+		{
+			"name": "Weight",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt",
+			"type": "DWRD"
+		},
+		{
+			"name": "PriceMod",
+			"type": "DWRD"
+		},
+		{
+			"name": "Salary",
+			"type": "DLNG"
+		},
+		{
+			"name": "SalaryCap",
+			"type": "DLNG"
+		},
+		{
+			"name": "Contrib",
+			"type": "HLNG"
+		},
+		{
+			"name": "Contrib",
+			"type": "HLNG"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "ConvName",
+			"type": "C040"
+		}
+	],
+	"bööm": [
+		{
+			"name": "FrameAdvance",
+			"type": "DWRD"
+		},
+		{
+			"name": "SoundIndex",
+			"type": "DWRD"
+		}
+	],
+	"crön": [
+		{
+			"name": "FirstDay",
+			"type": "DWRD"
+		},
+		{
+			"name": "FirstMonth",
+			"type": "DWRD"
+		},
+		{
+			"name": "FirstYear",
+			"type": "DWRD"
+		},
+		{
+			"name": "LastDay",
+			"type": "DWRD"
+		},
+		{
+			"name": "LastMonth",
+			"type": "DWRD"
+		},
+		{
+			"name": "LastYear",
+			"type": "DWRD"
+		},
+		{
+			"name": "Random",
+			"type": "DWRD"
+		},
+		{
+			"name": "Duration",
+			"type": "DWRD"
+		},
+		{
+			"name": "PreHoldoff",
+			"type": "DWRD"
+		},
+		{
+			"name": "PostHoldoff",
+			"type": "DWRD"
+		},
+		{
+			"name": "IndNewsStr",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "EnableOn",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnStart",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnEnd",
+			"type": "C100"
+		},
+		{
+			"name": "Contrib",
+			"type": "HLNG"
+		},
+		{
+			"name": "Contrib",
+			"type": "HLNG"
+		},
+		{
+			"name": "Require",
+			"type": "HLNG"
+		},
+		{
+			"name": "Require",
+			"type": "HLNG"
+		},
+		{
+			"name": "NewsGovt1",
+			"type": "DWRD"
+		},
+		{
+			"name": "NewsGovt2",
+			"type": "DWRD"
+		},
+		{
+			"name": "NewsGovt3",
+			"type": "DWRD"
+		},
+		{
+			"name": "NewsGovt4",
+			"type": "DWRD"
+		},
+		{
+			"name": "GovtNewsStr1",
+			"type": "DWRD"
+		},
+		{
+			"name": "GovtNewsStr2",
+			"type": "DWRD"
+		},
+		{
+			"name": "GovtNewsStr3",
+			"type": "DWRD"
+		}
+	],
+	"shän": [
+		{
+			"name": "BaseImageID",
+			"type": "DWRD"
+		},
+		{
+			"name": "BaseMaskID",
+			"type": "DWRD"
+		},
+		{
+			"name": "BaseSetCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "BaseXSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "BaseYSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "BaseTransp",
+			"type": "DWRD"
+		},
+		{
+			"name": "AltImageID",
+			"type": "DWRD"
+		},
+		{
+			"name": "AltMaskID",
+			"type": "DWRD"
+		},
+		{
+			"name": "AltSetCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "AltXSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "AltYSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "GlowImageID",
+			"type": "DWRD"
+		},
+		{
+			"name": "GlowMaskID",
+			"type": "DWRD"
+		},
+		{
+			"name": "GlowXSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "GlowYSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "LightImageID",
+			"type": "DWRD"
+		},
+		{
+			"name": "LightMaskID",
+			"type": "DWRD"
+		},
+		{
+			"name": "LightXSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "LightYSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "WeapImageID",
+			"type": "DWRD"
+		},
+		{
+			"name": "WeapMaskID",
+			"type": "DWRD"
+		},
+		{
+			"name": "WeapXSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "WeapYSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "AnimDelay",
+			"type": "DWRD"
+		},
+		{
+			"name": "WeapDecay",
+			"type": "DWRD"
+		},
+		{
+			"name": "FramesPer",
+			"type": "DWRD"
+		},
+		{
+			"name": "BlinkMode",
+			"type": "DWRD"
+		},
+		{
+			"name": "BlinkA",
+			"type": "DWRD"
+		},
+		{
+			"name": "BlinkB",
+			"type": "DWRD"
+		},
+		{
+			"name": "BlinkC",
+			"type": "DWRD"
+		},
+		{
+			"name": "BlinkD",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShieldImgID",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShieldMaskID",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShieldXSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShieldYSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "GunPosX",
+			"type": "RECT"
+		},
+		{
+			"name": "GunPosY",
+			"type": "RECT"
+		},
+		{
+			"name": "TurretPosX",
+			"type": "RECT"
+		},
+		{
+			"name": "TurretPosY",
+			"type": "RECT"
+		},
+		{
+			"name": "GuidedPosX",
+			"type": "RECT"
+		},
+		{
+			"name": "GuidedPosY",
+			"type": "RECT"
+		},
+		{
+			"name": "BeamPosX",
+			"type": "RECT"
+		},
+		{
+			"name": "BeamPosY",
+			"type": "RECT"
+		},
+		{
+			"name": "UpCompressX",
+			"type": "DWRD"
+		},
+		{
+			"name": "UpCompressY",
+			"type": "DWRD"
+		},
+		{
+			"name": "DnCompressX",
+			"type": "DWRD"
+		},
+		{
+			"name": "DnCompressY",
+			"type": "DWRD"
+		},
+		{
+			"name": "GunPosZ",
+			"type": "RECT"
+		},
+		{
+			"name": "TurretPosZ",
+			"type": "RECT"
+		},
+		{
+			"name": "GuidedPosZ",
+			"type": "RECT"
+		},
+		{
+			"name": "BeamPosZ",
+			"type": "RECT"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"mïsn": [
+		{
+			"name": "AvailStel",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "AvailLoc",
+			"type": "DWRD"
+		},
+		{
+			"name": "AvailRecord",
+			"type": "DWRD"
+		},
+		{
+			"name": "AvailRating",
+			"type": "DWRD"
+		},
+		{
+			"name": "AvailRandom",
+			"type": "DWRD"
+		},
+		{
+			"name": "TravelStel",
+			"type": "DWRD"
+		},
+		{
+			"name": "ReturnStel",
+			"type": "DWRD"
+		},
+		{
+			"name": "CargoType",
+			"type": "DWRD"
+		},
+		{
+			"name": "CargoQty",
+			"type": "DWRD"
+		},
+		{
+			"name": "PickupMode",
+			"type": "DWRD"
+		},
+		{
+			"name": "DropoffMode",
+			"type": "DWRD"
+		},
+		{
+			"name": "ScanMask",
+			"type": "HWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "PayVal",
+			"type": "DLNG"
+		},
+		{
+			"name": "ShipCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipSyst",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipDude",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipGoal",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipBehav",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipNameID",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipStart",
+			"type": "DWRD"
+		},
+		{
+			"name": "CompGovt",
+			"type": "DWRD"
+		},
+		{
+			"name": "CompReward",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipSubtitle",
+			"type": "DWRD"
+		},
+		{
+			"name": "BriefText",
+			"type": "DWRD"
+		},
+		{
+			"name": "QuickBrief",
+			"type": "DWRD"
+		},
+		{
+			"name": "LoadCargText",
+			"type": "DWRD"
+		},
+		{
+			"name": "DropCargText",
+			"type": "DWRD"
+		},
+		{
+			"name": "CompText",
+			"type": "DWRD"
+		},
+		{
+			"name": "FailText",
+			"type": "DWRD"
+		},
+		{
+			"name": "TimeLimit",
+			"type": "DWRD"
+		},
+		{
+			"name": "CanAbort",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipDoneText",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "AuxShipCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "AuxShipDude",
+			"type": "DWRD"
+		},
+		{
+			"name": "AuxShipSyst",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "Flags2",
+			"type": "HWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "RefuseText",
+			"type": "DWRD"
+		},
+		{
+			"name": "AvailShipTyp",
+			"type": "DWRD"
+		},
+		{
+			"name": "AvailBits",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnAccept",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnRefuse",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnSuccess",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnFailure",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnAbort",
+			"type": "C0FF"
+		},
+		{
+			"name": "Require",
+			"type": "HLNG"
+		},
+		{
+			"name": "Require",
+			"type": "HLNG"
+		},
+		{
+			"name": "DatePostInc",
+			"type": "DWRD"
+		},
+		{
+			"name": "OnShipDone",
+			"type": "C0FF"
+		},
+		{
+			"name": "AcceptButton",
+			"type": "C020"
+		},
+		{
+			"name": "RefuseButton",
+			"type": "C021"
+		},
+		{
+			"name": "DispWeight",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"spïn": [
+		{
+			"name": "SpritesID",
+			"type": "DWRD"
+		},
+		{
+			"name": "MasksID",
+			"type": "DWRD"
+		},
+		{
+			"name": "xSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "ySize",
+			"type": "DWRD"
+		},
+		{
+			"name": "xTiles",
+			"type": "DWRD"
+		}
+	],
+	"jünk": [
+		{
+			"name": "SoldAt1",
+			"type": "DWRD"
+		},
+		{
+			"name": "SoldAt2",
+			"type": "DWRD"
+		},
+		{
+			"name": "SoldAt3",
+			"type": "DWRD"
+		},
+		{
+			"name": "SoldAt4",
+			"type": "DWRD"
+		},
+		{
+			"name": "SoldAt5",
+			"type": "DWRD"
+		},
+		{
+			"name": "SoldAt6",
+			"type": "DWRD"
+		},
+		{
+			"name": "SoldAt7",
+			"type": "DWRD"
+		},
+		{
+			"name": "SoldAt8",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoughtAt1",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoughtAt2",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoughtAt3",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoughtAt4",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoughtAt5",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoughtAt6",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoughtAt7",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoughtAt8",
+			"type": "DWRD"
+		},
+		{
+			"name": "BasePrice",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "ScanMask",
+			"type": "HWRD"
+		},
+		{
+			"name": "LCName",
+			"type": "C040"
+		},
+		{
+			"name": "Abbrev",
+			"type": "C040"
+		},
+		{
+			"name": "BuyOn",
+			"type": "C0FF"
+		}
+	],
+	"flët": [
+		{
+			"name": "LeadShipType",
+			"type": "DWRD"
+		},
+		{
+			"name": "EscortType",
+			"type": "RECT"
+		},
+		{
+			"name": "Min",
+			"type": "RECT"
+		},
+		{
+			"name": "Max",
+			"type": "RECT"
+		},
+		{
+			"name": "Govt",
+			"type": "DWRD"
+		},
+		{
+			"name": "LinkSyst",
+			"type": "DWRD"
+		},
+		{
+			"name": "ActivateOn",
+			"type": "T100"
+		},
+		{
+			"name": "Quote",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"nëbu": [
+		{
+			"name": "XPos",
+			"type": "DWRD"
+		},
+		{
+			"name": "YPos",
+			"type": "DWRD"
+		},
+		{
+			"name": "XSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "YSize",
+			"type": "DWRD"
+		},
+		{
+			"name": "ActiveOn",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnExplore",
+			"type": "C0FF"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"öops": [
+		{
+			"name": "Stellar",
+			"type": "DWRD"
+		},
+		{
+			"name": "Commodity",
+			"type": "DWRD"
+		},
+		{
+			"name": "PriceDelta",
+			"type": "DWRD"
+		},
+		{
+			"name": "Duration",
+			"type": "DWRD"
+		},
+		{
+			"name": "Freq",
+			"type": "DWRD"
+		},
+		{
+			"name": "ActivateOn",
+			"type": "C100"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"përs": [
+		{
+			"name": "LinkSyst",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt",
+			"type": "DWRD"
+		},
+		{
+			"name": "AIType",
+			"type": "DWRD"
+		},
+		{
+			"name": "Aggress",
+			"type": "DWRD"
+		},
+		{
+			"name": "Coward",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType",
+			"type": "DWRD"
+		},
+		{
+			"name": "WeapType",
+			"type": "RECT"
+		},
+		{
+			"name": "WeapCount",
+			"type": "RECT"
+		},
+		{
+			"name": "AmmoLoad",
+			"type": "RECT"
+		},
+		{
+			"name": "Credits",
+			"type": "DLNG"
+		},
+		{
+			"name": "ShieldMod",
+			"type": "DWRD"
+		},
+		{
+			"name": "HailPict",
+			"type": "DWRD"
+		},
+		{
+			"name": "CommQuote",
+			"type": "DWRD"
+		},
+		{
+			"name": "HailQuote",
+			"type": "DWRD"
+		},
+		{
+			"name": "LinkMission",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "ActivateOn",
+			"type": "C100"
+		},
+		{
+			"name": "GrantClass",
+			"type": "DWRD"
+		},
+		{
+			"name": "GrantCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "GrantProb",
+			"type": "DWRD"
+		},
+		{
+			"name": "Subtitle",
+			"type": "C040"
+		},
+		{
+			"name": "Color",
+			"type": "HLNG"
+		},
+		{
+			"name": "Flags2",
+			"type": "HWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"düde": [
+		{
+			"name": "AIType",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "InfoTypes",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType1",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType2",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType3",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType4",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType5",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType6",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType7",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType8",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType9",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType10",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType11",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType12",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType13",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType14",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType15",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShipType16",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability5",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability6",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability7",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability8",
+			"type": "DWRD"
+		},
+		{
+			"name": "Probability9",
+			"type": "DWRD"
+		},
+		{
+			"name": "Prob10",
+			"type": "DWRD"
+		},
+		{
+			"name": "Prob11",
+			"type": "DWRD"
+		},
+		{
+			"name": "Prob12",
+			"type": "DWRD"
+		},
+		{
+			"name": "Prob13",
+			"type": "DWRD"
+		},
+		{
+			"name": "Prob14",
+			"type": "DWRD"
+		},
+		{
+			"name": "Prob15",
+			"type": "DWRD"
+		},
+		{
+			"name": "Prob16",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"oütf": [
+		{
+			"name": "DispWeight",
+			"type": "DWRD"
+		},
+		{
+			"name": "Mass",
+			"type": "DWRD"
+		},
+		{
+			"name": "TechLevel",
+			"type": "DWRD"
+		},
+		{
+			"name": "ModType",
+			"type": "DWRD"
+		},
+		{
+			"name": "ModVal",
+			"type": "DWRD"
+		},
+		{
+			"name": "Max",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "Cost",
+			"type": "DLNG"
+		},
+		{
+			"name": "ModType2",
+			"type": "DWRD"
+		},
+		{
+			"name": "ModVal2",
+			"type": "DWRD"
+		},
+		{
+			"name": "ModType3",
+			"type": "DWRD"
+		},
+		{
+			"name": "ModVal3",
+			"type": "DWRD"
+		},
+		{
+			"name": "ModType4",
+			"type": "DWRD"
+		},
+		{
+			"name": "ModVal4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Contributes",
+			"type": "HLNG"
+		},
+		{
+			"name": "Contributes",
+			"type": "HLNG"
+		},
+		{
+			"name": "Requires",
+			"type": "HLNG"
+		},
+		{
+			"name": "Requires",
+			"type": "HLNG"
+		},
+		{
+			"name": "Availability",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnPurchase",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnSell",
+			"type": "C0FF"
+		},
+		{
+			"name": "ShortName",
+			"type": "C040"
+		},
+		{
+			"name": "LCName",
+			"type": "C040"
+		},
+		{
+			"name": "LCPlural",
+			"type": "C041"
+		},
+		{
+			"name": "ItemClass",
+			"type": "DWRD"
+		},
+		{
+			"name": "ScanMask",
+			"type": "HWRD"
+		},
+		{
+			"name": "BuyRandom",
+			"type": "DWRD"
+		},
+		{
+			"name": "RequireGovt",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"dësc": [
+		{
+			"name": "Description",
+			"type": "CSTR"
+		},
+		{
+			"name": "Graphic",
+			"type": "DWRD"
+		},
+		{
+			"name": "Movie",
+			"type": "C020"
+		}
+	],
+	"spöb": [
+		{
+			"name": "xPos",
+			"type": "DWRD"
+		},
+		{
+			"name": "yPos",
+			"type": "DWRD"
+		},
+		{
+			"name": "Type",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HLNG"
+		},
+		{
+			"name": "Tribute",
+			"type": "DWRD"
+		},
+		{
+			"name": "TechLevel",
+			"type": "DWRD"
+		},
+		{
+			"name": "SpecialTech1",
+			"type": "DWRD"
+		},
+		{
+			"name": "SpecialTech2",
+			"type": "DWRD"
+		},
+		{
+			"name": "SpecialTech3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt",
+			"type": "DWRD"
+		},
+		{
+			"name": "MinCoolness",
+			"type": "DWRD"
+		},
+		{
+			"name": "CustPicID",
+			"type": "DWRD"
+		},
+		{
+			"name": "CustSndID",
+			"type": "DWRD"
+		},
+		{
+			"name": "DefDude",
+			"type": "DWRD"
+		},
+		{
+			"name": "DefCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags2",
+			"type": "HWRD"
+		},
+		{
+			"name": "AnimDelay",
+			"type": "DWRD"
+		},
+		{
+			"name": "Frame0Bias",
+			"type": "DWRD"
+		},
+		{
+			"name": "HyperLink1",
+			"type": "DWRD"
+		},
+		{
+			"name": "HyperLink2",
+			"type": "DWRD"
+		},
+		{
+			"name": "HyperLink3",
+			"type": "DWRD"
+		},
+		{
+			"name": "HyperLink4",
+			"type": "DWRD"
+		},
+		{
+			"name": "HyperLink5",
+			"type": "DWRD"
+		},
+		{
+			"name": "HyperLink6",
+			"type": "DWRD"
+		},
+		{
+			"name": "HyperLink7",
+			"type": "DWRD"
+		},
+		{
+			"name": "HyperLink8",
+			"type": "DWRD"
+		},
+		{
+			"name": "OnDominate",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnRelease",
+			"type": "C0FF"
+		},
+		{
+			"name": "Fee",
+			"type": "DLNG"
+		},
+		{
+			"name": "Gravity",
+			"type": "DWRD"
+		},
+		{
+			"name": "Weapon",
+			"type": "DWRD"
+		},
+		{
+			"name": "Strength",
+			"type": "DLNG"
+		},
+		{
+			"name": "DeadType",
+			"type": "DWRD"
+		},
+		{
+			"name": "DeadTime",
+			"type": "DWRD"
+		},
+		{
+			"name": "ExplodType",
+			"type": "DWRD"
+		},
+		{
+			"name": "OnDestroy",
+			"type": "C0FF"
+		},
+		{
+			"name": "OnRegen",
+			"type": "C0FF"
+		},
+		{
+			"name": "SpecialTech4",
+			"type": "DWRD"
+		},
+		{
+			"name": "SpecialTech5",
+			"type": "DWRD"
+		},
+		{
+			"name": "SpecialTech6",
+			"type": "DWRD"
+		},
+		{
+			"name": "SpecialTech7",
+			"type": "DWRD"
+		},
+		{
+			"name": "SpecialTech8",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"sÿst": [
+		{
+			"name": "xPos",
+			"type": "DWRD"
+		},
+		{
+			"name": "yPos",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con5",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con6",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con7",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con8",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con9",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con10",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con11",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con12",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con13",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con14",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con15",
+			"type": "DWRD"
+		},
+		{
+			"name": "Con16",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav5",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav6",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav7",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav8",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav9",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav10",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav11",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav12",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav13",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav14",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav15",
+			"type": "DWRD"
+		},
+		{
+			"name": "Nav16",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeType1",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeType2",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeType3",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeType4",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeType5",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeType6",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeType7",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeType8",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeProb1",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeProb2",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeProb3",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeProb4",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeProb5",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeProb6",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeProb7",
+			"type": "DWRD"
+		},
+		{
+			"name": "DudeProb8",
+			"type": "DWRD"
+		},
+		{
+			"name": "AvgShips",
+			"type": "DWRD"
+		},
+		{
+			"name": "Govt",
+			"type": "DWRD"
+		},
+		{
+			"name": "Message",
+			"type": "DWRD"
+		},
+		{
+			"name": "Asteroids",
+			"type": "DWRD"
+		},
+		{
+			"name": "Interference",
+			"type": "DWRD"
+		},
+		{
+			"name": "Person1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Person2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Person3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Person4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Person5",
+			"type": "DWRD"
+		},
+		{
+			"name": "Person6",
+			"type": "DWRD"
+		},
+		{
+			"name": "Person7",
+			"type": "DWRD"
+		},
+		{
+			"name": "Person8",
+			"type": "DWRD"
+		},
+		{
+			"name": "PersProb1",
+			"type": "DWRD"
+		},
+		{
+			"name": "PersProb2",
+			"type": "DWRD"
+		},
+		{
+			"name": "PersProb3",
+			"type": "DWRD"
+		},
+		{
+			"name": "PersProb4",
+			"type": "DWRD"
+		},
+		{
+			"name": "PersProb5",
+			"type": "DWRD"
+		},
+		{
+			"name": "PersProb6",
+			"type": "DWRD"
+		},
+		{
+			"name": "PersProb7",
+			"type": "DWRD"
+		},
+		{
+			"name": "PersProb8",
+			"type": "DWRD"
+		},
+		{
+			"name": "BkgndColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "Murk",
+			"type": "DWRD"
+		},
+		{
+			"name": "AstTypes",
+			"type": "HWRD"
+		},
+		{
+			"name": "Visiblility",
+			"type": "C100"
+		},
+		{
+			"name": "ReinfFleet",
+			"type": "DWRD"
+		},
+		{
+			"name": "ReinfTime",
+			"type": "DWRD"
+		},
+		{
+			"name": "ReinfIntrval",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"wëap": [
+		{
+			"name": "Reload",
+			"type": "DWRD"
+		},
+		{
+			"name": "Count",
+			"type": "DWRD"
+		},
+		{
+			"name": "MassDmg",
+			"type": "DWRD"
+		},
+		{
+			"name": "EnergyDmg",
+			"type": "DWRD"
+		},
+		{
+			"name": "Guidance",
+			"type": "DWRD"
+		},
+		{
+			"name": "Speed",
+			"type": "DWRD"
+		},
+		{
+			"name": "AmmoType",
+			"type": "DWRD"
+		},
+		{
+			"name": "Graphic",
+			"type": "DWRD"
+		},
+		{
+			"name": "Inaccuracy",
+			"type": "DWRD"
+		},
+		{
+			"name": "Sound",
+			"type": "DWRD"
+		},
+		{
+			"name": "Impact",
+			"type": "DWRD"
+		},
+		{
+			"name": "ExplodType",
+			"type": "DWRD"
+		},
+		{
+			"name": "ProxRadius",
+			"type": "DWRD"
+		},
+		{
+			"name": "BlastRadius",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "Seeker",
+			"type": "HWRD"
+		},
+		{
+			"name": "SmokeSet",
+			"type": "DWRD"
+		},
+		{
+			"name": "Decay",
+			"type": "DWRD"
+		},
+		{
+			"name": "Particles",
+			"type": "DWRD"
+		},
+		{
+			"name": "PartVel",
+			"type": "DWRD"
+		},
+		{
+			"name": "PartLifeMin",
+			"type": "DWRD"
+		},
+		{
+			"name": "PartLifeMax",
+			"type": "DWRD"
+		},
+		{
+			"name": "PartColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "BeamLength",
+			"type": "DWRD"
+		},
+		{
+			"name": "BeamWidth",
+			"type": "DWRD"
+		},
+		{
+			"name": "Falloff",
+			"type": "DWRD"
+		},
+		{
+			"name": "BeamColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "CoronaColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "SubCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "SubType",
+			"type": "DWRD"
+		},
+		{
+			"name": "SubTheta",
+			"type": "DWRD"
+		},
+		{
+			"name": "SubLimit",
+			"type": "DWRD"
+		},
+		{
+			"name": "ProxSafety",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags2",
+			"type": "HWRD"
+		},
+		{
+			"name": "Ionization",
+			"type": "DWRD"
+		},
+		{
+			"name": "HitParticles",
+			"type": "DWRD"
+		},
+		{
+			"name": "HitPartLife",
+			"type": "DWRD"
+		},
+		{
+			"name": "HitPartVel",
+			"type": "DWRD"
+		},
+		{
+			"name": "HitPartColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "Recoil",
+			"type": "DWRD"
+		},
+		{
+			"name": "ExitType",
+			"type": "DWRD"
+		},
+		{
+			"name": "BurstCount",
+			"type": "DWRD"
+		},
+		{
+			"name": "BurstReload",
+			"type": "DWRD"
+		},
+		{
+			"name": "JamVuln1",
+			"type": "DWRD"
+		},
+		{
+			"name": "JamVuln2",
+			"type": "DWRD"
+		},
+		{
+			"name": "JamVuln3",
+			"type": "DWRD"
+		},
+		{
+			"name": "JamVuln4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags3",
+			"type": "HWRD"
+		},
+		{
+			"name": "Durability",
+			"type": "DWRD"
+		},
+		{
+			"name": "GuidedTurn",
+			"type": "DWRD"
+		},
+		{
+			"name": "MaxAmmo",
+			"type": "DWRD"
+		},
+		{
+			"name": "LiDensity",
+			"type": "DWRD"
+		},
+		{
+			"name": "LiAmplitude",
+			"type": "DWRD"
+		},
+		{
+			"name": "IonizeColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	],
+	"gövt": [
+		{
+			"name": "VoiceType",
+			"type": "DWRD"
+		},
+		{
+			"name": "Flags",
+			"type": "HWRD"
+		},
+		{
+			"name": "Flags2",
+			"type": "HWRD"
+		},
+		{
+			"name": "ScanFine",
+			"type": "DWRD"
+		},
+		{
+			"name": "CrimeTol",
+			"type": "DWRD"
+		},
+		{
+			"name": "SmugPenalty",
+			"type": "DWRD"
+		},
+		{
+			"name": "DisabPenalty",
+			"type": "DWRD"
+		},
+		{
+			"name": "BoardPenalty",
+			"type": "DWRD"
+		},
+		{
+			"name": "KillPenalty",
+			"type": "DWRD"
+		},
+		{
+			"name": "ShootPenalty",
+			"type": "DWRD"
+		},
+		{
+			"name": "InitialRec",
+			"type": "DWRD"
+		},
+		{
+			"name": "MaxOdds",
+			"type": "DWRD"
+		},
+		{
+			"name": "Class1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Class2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Class3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Class4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Ally1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Ally2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Ally3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Ally4",
+			"type": "DWRD"
+		},
+		{
+			"name": "Enemy1",
+			"type": "DWRD"
+		},
+		{
+			"name": "Enemy2",
+			"type": "DWRD"
+		},
+		{
+			"name": "Enemy3",
+			"type": "DWRD"
+		},
+		{
+			"name": "Enemy4",
+			"type": "DWRD"
+		},
+		{
+			"name": "SkillMult",
+			"type": "DWRD"
+		},
+		{
+			"name": "ScanMask",
+			"type": "HWRD"
+		},
+		{
+			"name": "CommName",
+			"type": "C010"
+		},
+		{
+			"name": "TargetCode",
+			"type": "C010"
+		},
+		{
+			"name": "Require",
+			"type": "HLNG"
+		},
+		{
+			"name": "Require",
+			"type": "HLNG"
+		},
+		{
+			"name": "InhJam1",
+			"type": "DWRD"
+		},
+		{
+			"name": "InhJam2",
+			"type": "DWRD"
+		},
+		{
+			"name": "InhJam3",
+			"type": "DWRD"
+		},
+		{
+			"name": "InhJam4",
+			"type": "DWRD"
+		},
+		{
+			"name": "MediumName",
+			"type": "C040"
+		},
+		{
+			"name": "Color",
+			"type": "HLNG"
+		},
+		{
+			"name": "ShipColor",
+			"type": "HLNG"
+		},
+		{
+			"name": "Interface",
+			"type": "DWRD"
+		},
+		{
+			"name": "NewsPict",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		},
+		{
+			"name": "Unused",
+			"type": "DWRD"
+		}
+	]
+}

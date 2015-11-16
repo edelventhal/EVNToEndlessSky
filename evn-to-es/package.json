@@ -1,0 +1,21 @@
+{
+    "name": "evn-to-es",
+    "version": "0.1",
+    "description": "Uses a JSON data dump from EVN (prepared using evnparse) to create Endless Sky data files. In progress.",
+    "author": "Eli Delventhal <eli@flintgames.com>",
+    "contributors": [{
+        "name": "Eli Delventhal",
+        "email": "eli@flintgames.com"
+    }],
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eli-lumos/EVNToEndlessSky"
+    },
+    "bugs": {
+        "url": "https://github.com/eli-lumos/EVNToEndlessSky/issues"
+    },
+    "dependencies": {
+    },
+    "license": "MIT"
+}
