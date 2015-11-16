@@ -1,8 +1,5 @@
 /*global require*/
 /*global console*/
-/*global process*/
-/*global Buffer*/
-/*global parseInt*/
 
 var evnParse = require( "./evnParse.js" );
 var argv = require( "argv" );
