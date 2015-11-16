@@ -18,17 +18,17 @@ Next, we must get the template data that specifies how the bytes are packed in e
 
 evnparse, a node.js script, can then be used to go through all this data and turn it into a single monolithic JSON data file (hundreds of thousands of lines long!). First, evnparse needs useable template data, which means taking the template XML and turning it into JSON.
 
-    node evnparse path/to/EVNTemplates.xml -t path/to/templates.json
+    node -s evnparse path/to/EVNTemplates.xml -t path/to/templates.json
 
 This will save a new JSON file that is a useable version of the templates XML file, at the path you specified. There is already a templates.json found at resourceTemplates/templates.json that can be used. If you need to replace it, you would run the command like this:
 
-    node evnparse novaExports/templatesXML/EVNTemplates.xml -t resourceTemplates/templates.json
+    node -s evnparse novaExports/templatesXML/EVNTemplates.xml -t resourceTemplates/templates.json
 
 Note that there is one **very important exception** with the templates export. Due to a data aberration in flët/ActivateOn, you must manually change this element's type from "C100" to "T100". The *Cnnn* data type says that a C string will be found over the next nnn bytes in the data. However, in the isolated case of flët/ActivateOn, there appears to be junk data within those nnn bytes. Instead the data appears to behave more like a *CSTR* data type, where the string persists until a null byte is found. Because of this, I've added a "fake" data type that does not normally exist in ResEdit: *Tnnn*. It behaves like a *CSTR* type, except it advances the active byte index nnn bytes, thereby skipping the junk data. So, if you need to re-export the template data for some reason, be sure to make this manual change afterwards.
 
 After the template data is ready, then an actual data dump can be made.
 
-    node evnparse path/to/dataXML/folder -e path/to/resultData.json
+    node -s evnparse path/to/dataXML/folder -e path/to/resultData.json -t path/to/templates.json
 
 This will parse all of the data XML files found in the passed folder, combine all their data, and then put it into the target JSON file. You may also pass a single file to the first parameter.
 
@@ -36,7 +36,7 @@ Note that there is one **known bug** that will happen if you try to parse all 6 
 
 An already parsed JSON can be found at parsedData/evndata.json . If you need to replace it, you would run the command like this:
 
-    node evnparse novaExports/dataXML -e parsedData/evndata.json
+    node -s evnparse novaExports/dataXML -e parsedData/evndata.json -t path/to/templates.json
 
 But, remember, this is likely to fail unless you temporarily take one of the XML files out of the dataXML folder, then call the command on that file separately and manually combine the two result JSONs.
 

@@ -1,23 +1,26 @@
 {
-    "name": "evnparse",
-    "version": "1.0.0",
-    "description": "Given data XMLs exported from EVN's data files using Rezilla (a Mac OS resource fork reading program) and a templates json specifying data formats and byte order, evnparse will interpret all the data and put it into an easy-to-use JSON file.",
-    "author": "Eli Delventhal <eli@flintgames.com>",
-    "contributors": [{
-        "name": "Eli Delventhal",
-        "email": "eli@flintgames.com"
-    }],
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/eli-lumos/EVNToEndlessSky"
-    },
-    "bugs": {
-        "url": "https://github.com/eli-lumos/EVNToEndlessSky/issues"
-    },
-    "dependencies": {
-        "atob": "1.1.2",
-        "xml2js": "0.4.15"
-    },
-    "license": "MIT"
+  "name": "evnparse",
+  "version": "1.0.0",
+  "description": "Given data XMLs exported from EVN's data files using Rezilla (a Mac OS resource fork reading program) and a templates json specifying data formats and byte order, evnparse will interpret all the data and put it into an easy-to-use JSON file.",
+  "author": "Eli Delventhal <eli@flintgames.com>",
+  "contributors": [
+    {
+      "name": "Eli Delventhal",
+      "email": "eli@flintgames.com"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eli-lumos/EVNToEndlessSky"
+  },
+  "bugs": {
+    "url": "https://github.com/eli-lumos/EVNToEndlessSky/issues"
+  },
+  "dependencies": {
+    "argv": "0.0.2",
+    "atob": "1.1.2",
+    "xml2js": "0.4.15"
+  },
+  "license": "MIT"
 }
