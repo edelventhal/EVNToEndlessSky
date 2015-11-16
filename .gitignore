@@ -28,3 +28,10 @@ node_modules
 
 #Mac OS X annoying invisible file
 .DS_Store
+
+#You can include the Nova source files in the repo for convenience, but they should not be checked in
+novaSourceData/
+
+#You can include helpful tools in the repo for convenience, but they should not be checked in
+#ex: MissionComputer (reads EVN data), Rezilla (reads Mac OS resource forks and exports the data to XML)
+externalTools/
