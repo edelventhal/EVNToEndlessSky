@@ -1,0 +1,25 @@
+{
+  "name": "png-rounder",
+  "version": "1.0.0",
+  "description": "Takes a bunch of PNGs and adds a transparent rounded rect to the outside.",
+  "author": "Eli Delventhal <eli@flintgames.com>",
+  "contributors": [
+    {
+      "name": "Eli Delventhal",
+      "email": "eli@flintgames.com"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eli-lumos/EVNToEndlessSky"
+  },
+  "bugs": {
+    "url": "https://github.com/eli-lumos/EVNToEndlessSky/issues"
+  },
+  "dependencies": {
+    "argv": "0.0.2",
+    "node-png": "^0.4.3"
+  },
+  "license": "MIT"
+}
