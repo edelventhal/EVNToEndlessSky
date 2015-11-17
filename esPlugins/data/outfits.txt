@@ -74,10 +74,10 @@ outfit "Radar Missile Launcher"
 	mass 7
 	description "GLiMMER, a band of propellerheads turned pro, created the first modern radar guided missile and launcher system way back in 2045 AD.  This design, produced under license by KLSol, is practically identical to that original design, albeit with KLSol's usual software driver genius.  You can mount this unit in any spacefaring vessel with enough expansion space to hold it.  There have even been some reports that it has been successfully incorporated into Auroran vessels!  Requires: Missile Weapons License{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Grav Missile Launcher"
+outfit "Gravimetric Missile Launcher"
 	category "undefined"
 	cost 100000
-	thumbnail "outfit/grav_missile_launcher"
+	thumbnail "outfit/gravimetric_missile_launcher"
 	"outfit space" -10
 	mass 10
 	description "Gravimetric missiles require a very stable and well shielded position from which to get their bearings on a target.  The GLi-tech corporation ( which was formerly known as GLiMMER, before a 120 NC name change for legal purposes) makes and sells the only non-military implementation of the gravimetric missile system.  The monopoly market share that GLi-tech enjoys does not bode well for the price.  Requires: Missile Weapons {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}"
@@ -151,10 +151,10 @@ outfit "Polaron Cannon"
 	"gun ports" -1
 	description "Polarons are the new kid on the block in Direct Energy Weapon (DEW) systems.  Polarons pack a punch with little generation loss, although they are hard to control out of the barrel.  In some ways this cannon is rather like a Tesla coil in space, as it arcs rather than fires.  You will need to be close to other ships to use this weapon effectively.  The Polaron generation technology is very new, so it's also very expensive.  Requires: Exotic Ships & Weapons License"
 
-outfit "Ion Cannon"
+outfit "Ionic Particle Cannon"
 	category "Guns"
 	cost 150000
-	thumbnail "outfit/ion_cannon"
+	thumbnail "outfit/ionic_particle_cannon"
 	"outfit space" -25
 	mass 25
 	"gun ports" -1
@@ -199,7 +199,7 @@ outfit "Capacitor Pulse Laser"
 	"gun ports" -1
 	description "Perhaps the only weapon to require a ship to be built around it, the Capacitor Pulse Laser stores the energy created in Polaris fusion reactors to be discharged in a single beam lasting only a few short seconds.  For that short time, armor and shields may as well be wisps of smoke for all the good they will do against the fury of the most violent energy discharge mankind has yet created.  Arachnids and Scarabs are both built around CPL systems{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Biorelay Laser"
+outfit "BioRelay Laser"
 	category "Guns"
 	cost 250000
 	thumbnail "outfit/biorelay_laser"
@@ -323,10 +323,10 @@ outfit "Hail Chaingun"
 	"gun ports" -1
 	description "'If it ain't broke, don't fix it,' is the old maxim, and the Hail Chaingun holds true to this time-honored principle.  A simple caseless round is loaded into one of the two gatling breaches, and liquid propellant is injected behind the shell.  The Hail has a cyclic rate of 3000 RPM, and has enough ammo on board for an extended firefight{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "Chaingun Ammo"
+outfit "Chaingun Ammunition"
 	category "Ammunition"
 	cost 20
-	thumbnail "outfit/chaingun_ammo"
+	thumbnail "outfit/chaingun_ammunition"
 	description "Simple caseless rounds have been around for longer than most historians can remember, and the production of them is so old-tech as to be almost a backyard occurrence throughout most of Known Space.  The Aurorans in particular produce enormous amounts of it in order to fuel their almost constant war efforts (whether it be against the Federation or amongst themselves){b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
 outfit "100mm Fixed Railgun"
@@ -356,10 +356,10 @@ outfit "200mm Fixed Railgun"
 	"gun ports" -1
 	description "The mother of all railguns.  Firing a 200mm copper/cadmium pellet, this railgun looks like nothing less than a deck gun from an ancient Earth ocean-going warship.  The electrode rails get so scored during battle that they must be replaced at every landfall.  Luckily the rails are very cheap and easy to manufacture.  Some have even been constructed of old armor plates in times of emergency{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Turreted Railgun 100mm"
+outfit "100mm Turreted Railgun"
 	category "Turrets"
 	cost 500000
-	thumbnail "outfit/turreted_railgun_100mm"
+	thumbnail "outfit/100mm_turreted_railgun"
 	"outfit space" -30
 	mass 30
 	"turret mounts" -1
@@ -539,32 +539,32 @@ outfit "Port & Polish"
 	thumbnail "outfit/port_&_polish"
 	description "A Port & Polish is just that, a cleanup of your ship and its drive systems, allowing for more efficient engine usage.  Anybody seeking to get that little bit of extra acceleration out of their ship could use one of these little tune-ups{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Carbon Fiber -degraded -"
+outfit "Carbon Fiber - degraded"
 	category "Systems"
 	cost 50
-	thumbnail "outfit/carbon_fiber_-degraded_-"
+	thumbnail "outfit/carbon_fiber_-_degraded"
 	"outfit space" -1
 	mass 1
 	description "'It looks like this is well on the way out,' says the podgy grease-covered tinkerer, 'If you want to return it to full effectiveness, you will need to replace most of it.'"
 
-outfit "Map"
+outfit "Map; Fed/Pol"
 	category "Special"
 	cost 1000
-	thumbnail "outfit/map"
+	thumbnail "outfit/map;_fed/pol"
 	description "This map will automatically update your ship's computer with information about the location and contents of the systems surrounding this one."
 
-outfit "Hellhound Mssl Launcher"
+outfit "Hellhound Missile Launcher"
 	category "undefined"
 	cost 50000
-	thumbnail "outfit/hellhound_mssl_launcher"
+	thumbnail "outfit/hellhound_missile_launcher"
 	"outfit space" -10
 	mass 10
 	description "In recent times the Federation has been trying to come up with something new between the radar missile and the nuclear torpedo.  The end result has been this beauty.  Hellhound missiles scare every ship captain who is unfortunate enough to be anywhere near the business end of this devastating weapon.  This launcher gives you the capability to hurl these hellish thunderbolts at your enemies, something they will never forget.  Requires: Missile Weapons {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Exotic License - forged -"
+outfit "Exotic Ships & Weapons License"
 	category "undefined"
 	cost 45000
-	thumbnail "outfit/exotic_license_-_forged_-"
+	thumbnail "outfit/exotic_ships_&_weapons_license"
 	description "The 'Exotic Ships & Weapons License' is the most expensive and the most sought after license, as it gives you access to all of the outfits classified by the Federation Navy as requiring a license.  The small hunched man before you grumpily informs you that his work will fool even the most capable sensor sweep by Federation interceptors{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
 outfit "Transmission Jammer"
@@ -575,10 +575,10 @@ outfit "Transmission Jammer"
 	mass 1
 	description "Heraan scientists quickly utilized technology stolen from the Federation during the Battle of Lesten and created the Transmission Jammer.  It jams the signals being sent out so that reinforcement fleets will not receive notice to make their move.  The military applications of this technology are immense, and especially for those involved in operations deep within enemy territory."
 
-outfit "IFF Projector - Moash -"
+outfit "Moash IFF Projector"
 	category "Systems"
 	cost 50000
-	thumbnail "outfit/iff_projector_-_moash_-"
+	thumbnail "outfit/moash_iff_projector"
 	"outfit space" -2
 	mass 2
 	description "This outfit, based on technology stolen during the Battle of Lesten, will manipulate your IFF system to project a signal friendly to Moashi forces, so that they will treat you as friendly unless directly attacked."
@@ -589,10 +589,10 @@ outfit "Overdrive"
 	thumbnail "outfit/overdrive"
 	description "This is the engine modification inspired by the inbred mechanical genius 'Skinny'.  Without getting too technical, it dramatically increases the speed and acceleration of your ship, and as everyone knows, the faster your ship, the harder you are to catch.  Anybody who lives close to the legal edge needs more speed.  Merchants need it to try and keep away from the pirates, the pirates need it to keep ahead of the merchants and to keep away from the authorities, and the authorities could use it to catch the pirates.  If you need to get out to hyperspace range in a hurry, then this is the upgrade for you{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "T1 Strength Level"
+outfit ";T1 Strength"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/t1_strength_level"
+	thumbnail "outfit/;t1_strength"
 	description "Your power and skill match that of any Vell-os that has ever lived.  There is very little in the universe that can harm you now."
 
 outfit "Sigma Mass Expansion"
@@ -603,29 +603,35 @@ outfit "Sigma Mass Expansion"
 	mass -100
 	description "If you have a large enough ship, with lots of cargo space that you would like to swap out for a bit more weapons room, the Sigma Shipyards engineers can mount the required structural beams inside your ship and cut the necessary weapons ports in your hull.  They don't recommend this procedure more than once, as it could start to destabilise your vessel, and once done, it is virtually impossible to undo, as they have to dramatically change the overall integrity of your hull.  However, for a cost of 120 tons of cargo space, you can gain a total of 100 tons of room for any weapon emplacements you like{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Rebel Cloaking Device"
+outfit "Rebel Cloaking Device - illegal"
 	category "Systems"
 	cost 3500000
-	thumbnail "outfit/rebel_cloaking_device"
+	thumbnail "outfit/rebel_cloaking_device_-_illegal"
 	"outfit space" -15
 	mass 15
 	description "Rebel Scientists, working in conjunction with Polaris Ver'ash, have devised a cloaking device for rebel ships.  Highly illegal, it is advised to not allow the customs inspector a good look at it.  You will be able to cloak in space, thus becoming all but invisible to your foes."
 
-outfit "Carbon Fiber - cheap -"
+outfit "Cheap Carbon Fiber"
 	category "Systems"
 	cost 150
-	thumbnail "outfit/carbon_fiber_-_cheap_-"
+	thumbnail "outfit/cheap_carbon_fiber"
 	"outfit space" -1
 	mass 1
 	description "The introduction of controlled impurities has made a relatively inexpensive process almost dirt cheap.  'It will degrade over time, {G'mate' 'ma'am'},' says the podgy grease-covered tinkerer, 'So you will have to regularly replace it.  Once every six months or so should be fine, but if you let it go too long, you will end up with a very expensive paint job, and no protection whatsoever.{b424 '\'  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '\''}"
 
-outfit "Mil Rdr Jammer - cheap -"
+outfit "Cheap Military Radar Jammer"
 	category "Systems"
 	cost 25000
-	thumbnail "outfit/mil_rdr_jammer_-_cheap_-"
+	thumbnail "outfit/cheap_military_radar_jammer"
 	"outfit space" -3
 	mass 3
 	description "This is actually a real Federation Navy Radar Jammer, salvaged from debris after a space battle and restored to nearly its former condition.  However, it is highly illegal, but it is far better at confusing incoming missiles than the civilian version available nearly everywhere{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
+
+outfit "Forged Exotic Ships & Weapons License"
+	category "undefined"
+	cost 45000
+	thumbnail "outfit/forged_exotic_ships_&_weapons_license"
+	description "The 'Exotic Ships & Weapons License' is the most expensive and the most sought-after license, as it gives you access to all of the outfits classified by the Federation Navy as requiring a license.  The small hunched man before you grumpily informs you that his work will fool even the most capable sensor sweep by Federation interceptors{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
 outfit "Vectored Thrust"
 	category "Systems"
@@ -633,10 +639,10 @@ outfit "Vectored Thrust"
 	thumbnail "outfit/vectored_thrust"
 	description "This is another Owen Greylock special.  He came up with the idea when he saw ancient drawings of aerial fighter-craft that had small panels on either side of their exhaust pipes to direct the thrust in one direction or another and enhance maneuverability.  It took him ten years to perfect, but now the Greylock system is used by nearly all pirates throughout the Known Galaxy, and more than a few merchants and free-lance starship captains have also chosen to add this upgrade to their ships{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Sigma Elec. Rewiring"
+outfit "Sigma Electrical Rewiring"
 	category "Systems"
 	cost 1000000
-	thumbnail "outfit/sigma_elec._rewiring"
+	thumbnail "outfit/sigma_electrical_rewiring"
 	description "The electrical wiring of ships created on a production line is never very efficient, as manufacturers are more interested in cutting costs than creating a perfect electrical system.  However, if you are prepared to pay the price, the Sigma engineers will rip out all the electrics of your ship and recraft them with far more attention to detail.  The resulting system should slightly increase the capabilities of your sensors, and give a boost to both your shielding capacity and your recharge rat{P30'e.' 'e.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 outfit "Horizontal Booster"
@@ -645,27 +651,27 @@ outfit "Horizontal Booster"
 	thumbnail "outfit/horizontal_booster"
 	description "Donald Chick's expertise does not just stop at starship design and engineering; it also extends to hyperspatial navigational computational modules.  When you link this module into your navi-computer, it will be able to calculate hyperspatial trajectories much earlier than normal, as it includes an incredibly advanced gravitational compensation algorithm which allows you to enter hyperspace from much closer to the system center.  Many Rebel starship captains will attest to its effectiveness{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Ion Cannon - illegal -"
+outfit "Illegal Ionic Particle Cannon"
 	category "Guns"
 	cost 150000
-	thumbnail "outfit/ion_cannon_-_illegal_-"
+	thumbnail "outfit/illegal_ionic_particle_cannon"
 	"outfit space" -25
 	mass 25
 	"gun ports" -1
 	description "The Rauther Power Industries Ion Particle Cannon is amongst the most powerful directed energy weapons in the known galaxy.  Mounted on a 360¡/270¡ firing platform, the weapons accuracy is unmatched, delivering incredibly destructive pulses of charged helium nuclei. The weapon's rotating phase excels in damaging shields and armor. The weapon's only major drawbacks are its heavy power requirement and large mass.  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "Suth All Damp"
+outfit "Sutherland Alluvial Dampener"
 	category "Systems"
 	cost 300000
-	thumbnail "outfit/suth_all_damp"
+	thumbnail "outfit/sutherland_alluvial_dampener"
 	"outfit space" -10
 	mass 10
 	description "When he joined the Rebellion, Mr. Donald Chick and his engineers took with them many of Sigma Shipyards experimental designs, and one of them that has come into fruition was the alluvial damper.  Strictly speaking, it is more of a psychological damper: it lessens the EM field strengths created by a hyperspace field, but only within the living compartments of a starship.  The end result is that humans can therefore endure the more powerful hyperspace fields without mental breakdown, and so starships can travel faster between systems{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Fusion Turret - disabling -"
+outfit "Disabling Fusion Pulse Turret"
 	category "Turrets"
 	cost 75000
-	thumbnail "outfit/fusion_turret_-_disabling_-"
+	thumbnail "outfit/disabling_fusion_pulse_turret"
 	"outfit space" -20
 	mass 20
 	"turret mounts" -1
@@ -679,35 +685,41 @@ outfit "Fission Reactor"
 	mass 10
 	description "This reactor is the mainstay of the Federation fleet, and can easily handle the energy requirements of most vessels, although it struggles a little with the energy needs of the enormous Federation Carrier.  However, for all but the largest of capital ships, the fission reactor is more than sufficient for any energy output{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Medium Blaster - illegal -"
+outfit "Map; Sol/Kel'ar Iy only"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/map;_sol/kel'ar_iy_only"
+	description "This map will automatically update your ship's computer with information about the location and contents of the systems surrounding this one."
+
+outfit "Illegal Medium Blaster"
 	category "Guns"
 	cost 17000
-	thumbnail "outfit/medium_blaster_-_illegal_-"
+	thumbnail "outfit/illegal_medium_blaster"
 	"outfit space" -10
 	mass 10
 	"gun ports" -1
 	description "Pyrogenesis' midrange product is the unimaginatively named Medium Blaster.  This variant is normally carried by capital ships only; the weight alone makes it difficult for anything smaller to mount it.  While it's slower and more bulky than its lesser sibling, the Medium Blaster is much more powerful.  The lack of a turret mechanism does drop the weight some.  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "IR Mssl Lnchr - illegal -"
+outfit "Illegal IR Missile Launcher"
 	category "undefined"
 	cost 17000
-	thumbnail "outfit/ir_mssl_lnchr_-_illegal_-"
+	thumbnail "outfit/illegal_ir_missile_launcher"
 	"outfit space" -5
 	mass 5
 	description "Kayel Solutions (KLSol) have won 'Best of Show' 26 years running for their clever adaptation of the Infrared Missile launcher.  Based on the launcher mounted by the F-29 Anaconda and the E-41 Destroyer, the KLSol version is a tightly integrated set of standardized components that can easily swap between a hundred different classes of ship with only a minor, dealer serviceable tweak of the software.  The KLSol IR Missile Launcher does produce a fair amount of heat for such a small unit, but it's easily compensated for.  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "Rdr Mssl Lnchr - illegal -"
+outfit "Illegal Radar Missile Launcher"
 	category "undefined"
 	cost 25000
-	thumbnail "outfit/rdr_mssl_lnchr_-_illegal_-"
+	thumbnail "outfit/illegal_radar_missile_launcher"
 	"outfit space" -7
 	mass 7
 	description "GLiMMER, a band of propellerheads turned pro, created the first modern radar guided missile and launcher system way back in 2045 AD.  This design, produced under license by KLSol, is practically identical to that original design, albeit with KLSol's usual software driver genius.  You can mount this unit in any spacefaring vessel with enough expansion space to hold it.  There have even been some reports that it has been successfully incorporated into Auroran vessels!  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "T5 Strength Level"
+outfit ";T5 Strength"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/t5_strength_level"
+	thumbnail "outfit/;t5_strength"
 	description "While your skills are still rudimentary, and you are far from powerful, you still have some capability to defend yourself"
 
 outfit "Pirate Valkyrie Upgrade"
@@ -716,30 +728,30 @@ outfit "Pirate Valkyrie Upgrade"
 	thumbnail "outfit/pirate_valkyrie_upgrade"
 	description "With only a few relatively minor modifications, many shady outfitters have been able to take the Sigma Shipyards Starbridge upgrading process and use it to upgrade standard Valkyries to the much more feared pirate type.  Like all processes of this type, all existing outfits are stripped from your vessel, leaving only those outfits deemed to be standard according to the parameters of the new model{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Radar Missile - disabling -"
+outfit "Disabling Radar Missile"
 	category "Ammunition"
 	cost 1250
-	thumbnail "outfit/radar_missile_-_disabling_-"
+	thumbnail "outfit/disabling_radar_missile"
 	description "To allow them to conduct space-based, yet non-lethal duels, the Aurorans have been forced to add some fairly sophisticated sensory equipment to their radar missiles.  The result is a missile with a slightly greater diameter than the basic radar missile design that allows warriors to fight to the utmost of their ability without fear of utterly destroying their opponents."
 
-outfit "Thorium Reactor - cheap -"
+outfit "Cheap Thorium Reactor"
 	category "Systems"
 	cost 400000
-	thumbnail "outfit/thorium_reactor_-_cheap_-"
+	thumbnail "outfit/cheap_thorium_reactor"
 	"outfit space" -7
 	mass 7
 	description "After much argument you discover that the main saving of mass and energy in this poorer cousin of the Thorium reactors in Federation Carriers and the new models of Starbridge is in its radiation shielding and reaction-containing walls.  While it should work, if things go wrong, it may result in a rather large expanding ball of gas that you will end up being a part of{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "T4 Strength Level"
+outfit ";T4 Strength"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/t4_strength_level"
+	thumbnail "outfit/;t4_strength"
 	description "Your telepathic capabilities afford you some increased protection against possible hazards."
 
-outfit "Starbridge Upgrade"
+outfit "Chrome Valk Upgrade"
 	category "undefined"
 	cost 50000
-	thumbnail "outfit/starbridge_upgrade"
+	thumbnail "outfit/chrome_valk_upgrade"
 	description "Sigma Shipyard engineers recently came up with a relatively simple process for upgrading the standard Starbridge into the far more capable Starbridge C, most commonly known as the Chrome Valkyrie for reasons known only to its original designers.  The process takes barely 24 hours and at the end of it the new ship is ready for action.  The only drawback is that the process will strip all of your outfits from your old model and only leaves the 'standard' fittings for the Starbridge C type{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 outfit "Rebel Valkyrie Upgrade"
@@ -748,16 +760,16 @@ outfit "Rebel Valkyrie Upgrade"
 	thumbnail "outfit/rebel_valkyrie_upgrade"
 	description "Before he defected, Mr. Donald Chick and his engineers were working on processes of updating older versions of spare vessels to later models.  Since then he has perfected the techniques required, and here is the resulting process to upgrade a standard Valkyrie to the slightly more capable Rebellion standard type.  It takes just short of 24 hours and strips all excess outfits, leaving only those outfits defined as standard for the Rebel version.  However it is cheap, and relatively simple{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "T3 Strength Level"
+outfit ";T3 Strength"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/t3_strength_level"
+	thumbnail "outfit/;t3_strength"
 	description "With your power growing and your skills increasing, you telepathic capabilities afford you a fair amount of protection against the many and various hazards of the modern universe."
 
-outfit "Fission Reactor - faulty -"
+outfit "Fission Reactor - disabled"
 	category "Systems"
 	cost 250
-	thumbnail "outfit/fission_reactor_-_faulty_-"
+	thumbnail "outfit/fission_reactor_-_disabled"
 	"outfit space" -40
 	mass 40
 	description "All good things must come to an end, and unfortunately for this fission reactor, the end has come.  Pure and simple, you need to sell it for whatever you can get (telling the new owner it is shagged or not) and get a new power source."
@@ -778,25 +790,25 @@ outfit "Rebel Viper Bay"
 	mass 50
 	description "Mr. Donald Chick and his engineers have spent years trying to adapt the enormous fighter bays so that they can be fitted into the relatively small ships that the Rebels have managed to get their hands on.  With it, you will be able to hold and launch up to four of the upgraded Rebel Vipers.  As far as adaptive engineering solutions go, this one certainly stands up well..."
 
-outfit "T2 Strength Level"
+outfit ";T2 Strength"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/t2_strength_level"
+	thumbnail "outfit/;t2_strength"
 	description "Your skill and power would be the envy of most Vell-os galaxy wide.  It affords you excellent protection against the hazards of the universe."
 
-outfit "Hvy Bl Turret - illegal -"
+outfit "Illegal Heavy Blaster Turret"
 	category "Turrets"
 	cost 130000
-	thumbnail "outfit/hvy_bl_turret_-_illegal_-"
+	thumbnail "outfit/illegal_heavy_blaster_turret"
 	"outfit space" -60
 	mass 60
 	"turret mounts" -1
 	description "So big and slow that only a turret mechanism allows it to hit anything at all, the Heavy Blaster Turret is the grand-daddy of the Pyrogenesis line of directed energy firepower.  Mounted as standard on the E-60 Carrier, the pride of the Federation fleet, the Heavy Blaster chews through shields and armor alike.  The short range and slow speed of the enormous packets limit the effectiveness of this weapon at anything other than boarding range.  And you can buy it here without a license, but you had better be wary of Federation scans..."
 
-outfit "Telekinetic Boost ze"
+outfit "Telekinetic Boost"
 	category "Engines"
 	cost 0
-	thumbnail "outfit/telekinetic_boost ze"
+	thumbnail "outfit/telekinetic_boost"
 	description "No Description."
 
 outfit "Pirate Viper Bay"
@@ -807,10 +819,10 @@ outfit "Pirate Viper Bay"
 	mass 75
 	description "Pirates know about violence, and the threat of violence.  They also know about hounding individual ships in packs.  However, they also value speed, and the Pirate Viper Bay launches them far faster than any other type of bay outside of Polaris Space, allowing them to swarm over their foes with frightening rapidity.  So despite only being able to house a maximum of two Pirate Vipers, many pirates vessels have at least one.  With one of these bays on board, you'll have a fast pack at your disposal at all times{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Cloaking Device"
+outfit "Fed Cloaking Device"
 	category "Systems"
 	cost 3500000
-	thumbnail "outfit/cloaking_device"
+	thumbnail "outfit/fed_cloaking_device"
 	"outfit space" -15
 	mass 15
 	description "As a result of a lab accident when trying to study a captured Polaris biological ship, Federation scientists were able to create a sub-space bubble.  Later, with further research, they were able to figure out how to wrap one around a ship.  The result is that most modern sensors are completely incapable of detecting the ship as it is now 'cloaked' in the background fabric of the universe."
@@ -821,16 +833,16 @@ outfit "Sensor Boost"
 	thumbnail "outfit/sensor_boost"
 	description "Throughout the galaxy there are navigational hazards that affect your sensors, and over the last four centuries the Ver'ash and the P'aedt have been working on ways and means to overcome these problems.  The latest version can cut through even the most horrendous interference, making even the most treacherous parts of the galaxy navigable{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "Drop Bear Repellant"
+outfit "Drop Bear Repellent"
 	category "undefined"
 	cost 5000
-	thumbnail "outfit/drop_bear_repellant"
+	thumbnail "outfit/drop_bear_repellent"
 	description "You are a little dubious as to the veracity of the claims of this shifty, grinning merchant trying to sell you bottles of Auroran Drop Bear repellant.  But you cannot help feeling that anything that helps protect you from the well-documented deadly Drop Bear attacks will stand you in good stead.  Still, it is strange that just about everyone who walks past you starts grinning and shaking their heads as you consider buying from the smiling merchant..."
 
-outfit "Sigma Mount Reinf."
+outfit "Sigma Mount Reinforcement"
 	category "Systems"
 	cost 1500000
-	thumbnail "outfit/sigma_mount_reinf."
+	thumbnail "outfit/sigma_mount_reinforcement"
 	description "The limits of guns and turrets on most vessels are decided by safety engineers, but with a little bit of reinforcement, it becomes possible to increase those limits.  The cost may be prohibitive, but for the ship captain who wants that much more firepower, the Sigma engineers will guarantee that by the time they are finished you should be able to fit four more guns and two more turrets to your vesse{P30'l.' 'l.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 outfit "Rebel Viper"
@@ -839,18 +851,24 @@ outfit "Rebel Viper"
 	thumbnail "outfit/rebel_viper"
 	description "When General (ret) Cade 'Sundown' Smart defected to the Rebellion, he brought with him plans for all Federation vessels, and also intelligence on many ships used by other governments.  With this in hand, Donald Chick and his engineers set to work building and upgrading existing ships.  The resulting variant of the Viper is virtually unmatched anywhere in space."
 
-outfit "Pirate Th-head Bay"
+outfit "Pirate Thunderhead Bay"
 	category "undefined"
 	cost 5000000
-	thumbnail "outfit/pirate_th-head_bay"
+	thumbnail "outfit/pirate_thunderhead_bay"
 	"outfit space" -70
 	mass 70
 	description "The schematics for this Pirate Thunderhead bay look both impressive and practical, but you're a bit unsure as to how you'll fit it to your current vessel, although having the ability to launch three Pirate Thunderheads at your foes could never hurt{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "IFF Projector - Federation -"
+outfit "Map; Reb/Pir/Aur"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/map;_reb/pir/aur"
+	description "This map will automatically update your ship's computer with information about the location and contents of the systems surrounding this one."
+
+outfit "Federation IFF Projector"
 	category "Systems"
 	cost 50000
-	thumbnail "outfit/iff_projector_-_federation_-"
+	thumbnail "outfit/federation_iff_projector"
 	"outfit space" -2
 	mass 2
 	description "This outfit, based on technology stolen during the Battle of Lesten, will manipulate your IFF system to project a signal friendly to Federation forces, so that they will treat you as friendly unless directly attacked."
@@ -864,10 +882,18 @@ outfit "Storm Chaingun"
 	"turret mounts" -1
 	description "The Storm is a sacred weather pattern in Auroran culture.  Symbolizing the power and fury of the hordes of Auroran warriors, many warriors have a thundercloud as a death tattoo, indicating that they will die in the fury of a mass offensive.  The Storm Chaingun reflects the Auroran philosophy of overwhelming the enemy with numbers; the Storm is effectively four Hails on a turret, and, as a point defence weapon system, is used to destroy incoming fighters and missiles with often devastating effect, and without requiring any command input from the bridge{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Polaron Multi-Torp Tube"
+outfit "Polaron Torpedo Tube;fire whilst cloaked"
+	category "undefined"
+	cost 210000
+	thumbnail "outfit/polaron_torpedo_tube;fire_whilst_cloaked"
+	"outfit space" -27
+	mass 27
+	description "This launcher ties into a ship's main computer core (or neural network, in the case of Polaris ships).  It tracks a target ship, and then calculates the complex field generation parameters for the Polaron Flux Coils in the tube.  By varying the quantity, spin and charge of the newly generated polarons, the tube can give the polaron 'virtual structure' a good bead on a target before the preprogrammed field generator in the heart of the energy burst takes over.  And with a few relatively minor adjustments, it is now possible to use this weapon while the parent ship is cloaked{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
+
+outfit "Polaron Multi-Torpedo Tube;fire whilst cloaked"
 	category "undefined"
 	cost 260000
-	thumbnail "outfit/polaron_multi-torp_tube"
+	thumbnail "outfit/polaron_multi-torpedo_tube;fire_whilst_cloaked"
 	"outfit space" -30
 	mass 30
 	description "Like the simpler Polaron Torpedo Tube, this launcher ties into a ship's main computer core (or neural network, in the case of Polaris ships).  It tracks nearby hostile ships, and then calculates the complex field generation parameters for the Polaron Flux Coils in the tube.  By varying the quantity, spin and charge of the newly generated polarons, the tube can give the polaron 'virtual structure' allowing it to replicate itself into five separate copies that begin tracking the local hostile ships.  And, again like the simpler version, the Multi-Torpedo Tube is also now capable of being fired while cloaked{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
@@ -881,10 +907,16 @@ outfit "Fusion Pulse Battery"
 	"turret mounts" -1
 	description "When the Heraan family were constructing the first Abomination gunboats, they discovered quite quickly that standard Fusion Pulse Cannons mounted on Abominations were unable to hit fast moving targets, due to the poor turning speed of the craft.  So was born the Fusion Pulse Turret (and later the battery version)."
 
-outfit "Radar Missile - illegal -"
+outfit "Wraithii;fire whilst cloaked"
+	category "Ammunition"
+	cost 1050
+	thumbnail "outfit/wraithii;fire_whilst_cloaked"
+	description "The polarons for Wraithii are harvested by deep-space mining scoops run by the Tre'pira.  These polarons are then shipped to P'aedt facilities for encapsulation in the mar-graviton field that will hold them until they impact at a speed of greater than 20 kilometers an hour.  Needless to say, the final packets are handled with kid gloves.  It is a testament to the Tre'pira and the P'aedt that no accidents with Wraithii have ever occurred."
+
+outfit "Illegal Radar Missile"
 	category "Ammunition"
 	cost 800
-	thumbnail "outfit/radar_missile_-_illegal_-"
+	thumbnail "outfit/illegal_radar_missile"
 	description "Radar as a concept and as a useable weapons guidance system has been around since the middle of the twentieth century AD.  As humanity reached for the stars they brought their technology with them, and radar, which is not reliant on a medium for effectiveness, quickly became a necessary tool for guiding missiles.  This modern radar guided missile is a cheap GLiMMER knock-off.  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
 outfit "Thunderhead Lance"
@@ -895,6 +927,22 @@ outfit "Thunderhead Lance"
 	mass 8
 	"gun ports" -1
 	description "Thunderheads are built around this stocky beam unit.  The Lance is a simple laser; nothing more, nothing less.  It is a very highly charged weapon, but it is effective only at short range.  As the best way to use a Lance is to almost ram the ship in question, it is a favored weapon of the Wild Geese, who consider it a divine gift.  Requires: Heavy Weapons {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
+
+outfit "Polaron Multi-Torpedo Tube"
+	category "undefined"
+	cost 250000
+	thumbnail "outfit/polaron_multi-torpedo_tube"
+	"outfit space" -28
+	mass 28
+	description "Like the simpler Polaron Torpedo Tube, this launcher ties into a ship's main computer core (or neural network, in the case of Polaris ships).  It tracks nearby hostile ships, and then calculates the complex field generation parameters for the Polaron Flux Coils in the tube.  By varying the quantity, spin and charge of the newly generated polarons, the tube can give the polaron 'virtual structure' allowing it to replicate itself into five separate copies that begin tracking the local hostile ships{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
+
+outfit "Wraith Cannon;fire whilst cloaked"
+	category "undefined"
+	cost 210000
+	thumbnail "outfit/wraith_cannon;fire_whilst_cloaked"
+	"outfit space" -10
+	mass 10
+	description "Wraithii are tiny capsules of polarons contained in a mar-graviton field.  A Wraith Cannon fires these capsules via simple biomechanics, and the capsules burst on impact, releasing a powerful kinetic force.  These guns are mounted as standard on the Dragon, and can be retrofitted to most ships on the market.  And now that they have been modified to allow them to shoot while the parent ship is cloaked, they are even more effective.  The Nil'kemorya keep a careful eye on these weapons, however, and only the most favored of outsiders are ever allowed to buy them."
 
 outfit "Pirate Viper"
 	category "Ammunition"
@@ -910,16 +958,16 @@ outfit "Tunnelling Organ"
 	mass 2
 	description "By observing the Wraith, the P'aedt learned that instead of projecting hyperspace around them and then moving, they tunnelled directly into hyperspace, allowing them to hyperjump without stopping.  Now, with the Tunnelling Organ, they have managed to emulate this remarkable capability."
 
-outfit "Dr Ralph's Map"
+outfit "Dr Ralph's Exploration Map"
 	category "Special"
 	cost 0
-	thumbnail "outfit/dr_ralph's_map"
+	thumbnail "outfit/dr_ralph's_exploration_map"
 	description "No desc req'd"
 
-outfit "Polaron Multi-Torp"
+outfit "Polaron Multi-Torpedo;fire whilst cloaked"
 	category "Ammunition"
 	cost 3200
-	thumbnail "outfit/polaron_multi-torp"
+	thumbnail "outfit/polaron_multi-torpedo;fire_whilst_cloaked"
 	description "The Polaron Multi-Torpedo takes non-corporeal engineering to the extreme.  The charge and spin of the huge polaron virtual structure is set by the launcher at firing time, much like the simpler Polaron Torpedoes.  However, in the case of the Multi-Torpedo, the chaos mathematics of the field interaction allows the neural net of the Polaris vessel to create virtual sub-structures that get activated shortly after launch, creating five simple Torpedoes all capable of attacking different targets{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 outfit "Rebel Starbridge Upgrade"
@@ -928,10 +976,10 @@ outfit "Rebel Starbridge Upgrade"
 	thumbnail "outfit/rebel_starbridge_upgrade"
 	description "Before he defected, Mr. Donald Chick and his engineers were working on processes of updating older versions of spare vessels to later models.  Since then he has perfected the techniques required, and here is the resulting process to upgrade a standard Starbridge to the slightly more capable Rebellion standard type.  It takes just short of 24 hours and strips all excess outfits, leaving only those outfits defined as standard for the Rebel version.  However it is cheap, and relatively simple{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "BioRelay Laser Turret"
+outfit "Turreted BioRelay Laser"
 	category "Turrets"
 	cost 1250000
-	thumbnail "outfit/biorelay_laser_turret"
+	thumbnail "outfit/turreted_biorelay_laser"
 	"outfit space" -25
 	mass 25
 	"turret mounts" -1
@@ -945,41 +993,41 @@ outfit "Asteroid Scoop"
 	mass 5
 	description "For the would-be asteroid prospector, this is the second piece of necessary equipment.  Blowing up asteroids, while being fun, is only half the job; a prospector needs to be able to scoop up the resulting debris.  The Asteroid Scoop is simply that, a small ram-scoop that picks up any useful products released in the break-up of an asteroid."
 
-outfit "Ion Cannon - User modified -"
+outfit "User modified Ionic Particle Cannon"
 	category "Guns"
 	cost 150000
-	thumbnail "outfit/ion_cannon_-_user_modified_-"
+	thumbnail "outfit/user_modified_ionic_particle_cannon"
 	"outfit space" -25
 	mass 25
 	"gun ports" -1
 	description "The Rauther Power Industries Ion Particle Cannon is amongst the most powerful directed energy weapons in the known galaxy.  Mounted on a 360¡/270¡ firing platform, the weapons' accuracy is unmatched, delivering incredibly destructive pulses of charged helium nuclei. This particular version looks like it's a few decades old, and has been tinkered with and repaired by a number of different owners.  A few backyard tinkerers, and even one major weapon corporations seem interested in buying it, but only so they can pull it apart and have a look at what's been done to it."
 
-outfit "Fission Reactor - cheap -"
+outfit "Cheap Fission Reactor"
 	category "Systems"
 	cost 100000
-	thumbnail "outfit/fission_reactor_-_cheap_-"
+	thumbnail "outfit/cheap_fission_reactor"
 	"outfit space" -8
 	mass 8
 	description "If pure safety is one of your major concerns when it comes to power systems, then you had better skip this item.  However, if you want a quick power boost but do not have the cash or the clearance to buy the more expensive commercial items then this might be the answer.  Still, you have more than a few doubts that it performs as well as the backyard tinkerer who built it says it should..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "Flower of Spring"
+outfit "Flower Of Spring"
 	category "undefined"
 	cost 0
 	thumbnail "outfit/flower_of_spring"
 	description "The Vell-os name their weapons after the telepathic weaves used to turn their telepathic abilities into physical energy.  Thus this weapon is called the Flower Of Spring because the weave works from the ground up and includes patterns much like that of a flower."
 
-outfit "Cloaking Organ"
+outfit "Cloaking Organ;Polaris v1.0"
 	category "Systems"
 	cost 1000000
-	thumbnail "outfit/cloaking_organ"
+	thumbnail "outfit/cloaking_organ;polaris_v1.0"
 	"outfit space" -1
 	mass 1
 	description "The Ver'ash, working with the P'aedt on data recovered from encounters with the Wraith, have managed to duplicate their 'cloaking' capabilities.  There is still an energy signature that can be easily be read by most sensor systems, but any ship with the Cloaking Organ is invisible to the naked eye and is extremely difficult to target."
 
-outfit "Mining Laser"
+outfit "Asteroid Mining Laser"
 	category "Guns"
 	cost 10000
-	thumbnail "outfit/mining_laser"
+	thumbnail "outfit/asteroid_mining_laser"
 	"outfit space" -3
 	mass 3
 	"gun ports" -1
@@ -991,19 +1039,11 @@ outfit "Summer Bloom"
 	thumbnail "outfit/summer_bloom"
 	description "The Summer Bloom is the magenta beam that is incorporated into the form of the Arrow.  A T2 Vell-os can maintain power to this weapon almost indefinitely, and the stopping power of a Bloom is stunning for such a small beam."
 
-outfit "Wr Fast Jump"
+outfit "Wraith Fast Jump"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/wr_fast_jump"
+	thumbnail "outfit/wraith_fast_jump"
 	description "Living totally in the cold void of deep space has led to some amazing adaptations for the Wraith.  The same evolutionary forces that led to opposable thumbs for humans has also led to unbelievable advantages for the wraith in their natural environment.  While a human can run, jump and chew gum at the same time, a wraith may choose to jump at any time without slowing down to stop."
-
-outfit "Carbon Fiber - degraded -"
-	category "Systems"
-	cost 75
-	thumbnail "outfit/carbon_fiber_-_degraded_-"
-	"outfit space" -1
-	mass 1
-	description "'It looks like this is just starting to go,' says the podgy grease-covered tinkerer, 'A nip and tuck here and there and it could be as good as new.'"
 
 outfit "Light Cannon"
 	category "Guns"
@@ -1020,16 +1060,16 @@ outfit "Autumn Petal"
 	thumbnail "outfit/autumn_petal"
 	description "This instrument of destruction is an integral part of the makeup of a Vell-os Javelin.  The color of early autumn kirastei petals on Vell-os worlds, the Autumn Petal has an excellent sustained fire rate, and long range.  Only T1's have been known to be able to create the weave required for this weapon."
 
-outfit "Wr Cloak"
+outfit "Wraith Cloaking Device"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/wr_cloak"
+	thumbnail "outfit/wraith_cloaking_device"
 	description "The Wraith have an instinctual ability to cloak.  Much in the same way a human will put on a coat for certain situations, a Wraith will be able to cloak.  It is a fairly big mystery how this occurs, but needless to say at one moment the Wraith will be there and the next it won't."
 
-outfit "Multi-Jump Organ"
+outfit "Multi-Jumping Organ"
 	category "Systems"
 	cost 150000
-	thumbnail "outfit/multi-jump_organ"
+	thumbnail "outfit/multi-jumping_organ"
 	"outfit space" -2
 	mass 2
 	description "The Ver'ash and the P'aedt, working together on Ver'a Se, have grown an organ that combines the tunnelling capabilities of the Wraith with more traditional hyperspace manipulation techniques. It enables a ship to change direction in hyperspace, allowing for multiple jumps to be performed as if performing a single jump.  As yet, only a maximum of ten jumps are possible due to organ fatigue, but it is a major leap forward for Polaris hyperspatial technology."
@@ -1046,19 +1086,19 @@ outfit "Capital Warships License"
 	thumbnail "outfit/capital_warships_license"
 	description "Capital Warships License:  The Holder of this License is able to purchase the following ships classed as 'Capital Warships' by the Federation Security Council: IDA Frigate, Federation Patrol Boat (subject to military approval), Federation Destroyer (also requires 'Capital Ships License' and subject to military approval), Federation Carrier (also requires 'Capital Ships License' and subject to military approval){P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Qd Lt Turret - illegal -"
+outfit "Illegal Quad Light Blaster Turret"
 	category "Turrets"
 	cost 55000
-	thumbnail "outfit/qd_lt_turret_-_illegal_-"
+	thumbnail "outfit/illegal_quad_light_blaster_turret"
 	"outfit space" -20
 	mass 20
 	"turret mounts" -1
 	description "Comprised of quadruple Pyrogenesis Light Blasters on the most technically advanced turret they offer, the Quad Light Blaster system comes with a guarantee that it will dispose of your hostile fighter problems once and for all.  Shipboard gunners salivate at the thought of being permanently assigned to one of these beauties.  While the QLB System is heavy, it pours a truly prodigious amount of fire into enemy fighter squadrons, and creates havoc in the ranks of even the most disciplined fighter wings.  And you can buy it here without a license, but you had better be wary of Federation scans..."
 
-outfit ""
+outfit ";Krypt mind attack"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/"
+	thumbnail "outfit/;krypt_mind_attack"
 	description "MY BRAIN HURTS!  This is a stupid dsc to have to write.  Who bloody knows?  You can make people hurt with your brain! "
 
 outfit "Dart"
@@ -1081,16 +1121,16 @@ outfit "Capital Ships License"
 	thumbnail "outfit/capital_ships_license"
 	description "Capital Ships License:  The Holder of this License is able to purchase the following ships classed as 'Capital Ships' by the Federation Security Council: Leviathan, Pegasus, Starliner, IDA Frigate (also requires 'Capital Warships License'), Federation Destroyer (also requires 'Capital Warships License' and subject to military approval), Federation Carrier (also requires 'Capital Warships License' and subject to military approval){P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Divisable Mind"
+outfit "Create Dart"
 	category "undefined"
 	cost 0
-	thumbnail "outfit/divisable_mind"
+	thumbnail "outfit/create_dart"
 	description "As your telepathic power swells, you learn a great deal more about how to project your consciousness out upon the universe.  Now, if you choose to prepare yourself correctly by selecting this ability, you can project small parts of your mind into Dart-like receptacles which will act as you command them."
 
-outfit "Protective Tech License"
+outfit "Protective Technologies License"
 	category "undefined"
 	cost 40000
-	thumbnail "outfit/protective_tech_license"
+	thumbnail "outfit/protective_technologies_license"
 	description "Protective Technologies License:  The Holder of this License is able to purchase the following items classed as 'Protective Technologies' by the Federation Security Council: Quad Light Blaster Turret (also requires 'Heavy Weapons License' and subject to military approval), Carbon Fiber, Titanium Lattice (subject to military approval), Shield Recharger (subject to military approval), Shield Buffer (subject to military approval), Civilian IR Jammer, Civilian Radar Jammer, Military IR Jammer (subject to military approval), Military Radar Jammer (subject to military approval)."
 
 outfit "Marine Platoon"
@@ -1119,10 +1159,10 @@ outfit "Pirate Starbridge Upgrade"
 	thumbnail "outfit/pirate_starbridge_upgrade"
 	description "In a direct rip-off of the Sigma Shipyards upgrading process (which was probably taken from the upgrading process used by engineers working for the Rebellion), underhanded outfitters can now upgrade your standard Starbridge to the base level Pirate type.  Like the Sigma Shipyards process, all existing outfits are stripped from your vessel, leaving only those outfits deemed to be standard according to the new vessel type{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Solar Panel"
+outfit "Solar Panels"
 	category "Systems"
 	cost 15000
-	thumbnail "outfit/solar_panel"
+	thumbnail "outfit/solar_panels"
 	"outfit space" -3
 	mass 3
 	description "Most experienced traders will recommend that you buy at least one of these Sigma N41 Solar Panels.  They work by converting the energy of nearby stars, via super-efficient photo-voltaic cells, into electrical energy to continually build up charge in the superconductor loops which store the energy for later use.  The energy thus stored can the be called upon to slowly build up the reserves in your energy cells.  Comes in handy when you find yourself out of energy in an uninhabited system with no help in sight."
@@ -1139,10 +1179,10 @@ outfit "Sigma Engine Tune-up"
 	thumbnail "outfit/sigma_engine_tune-up"
 	description "If you are prepared to pay the exorbitant price, the Sigma Shipyards engineers will go over the engines of your ship with a fine-tooth comb, bringing out every possible bit of performance from your engine.  They will personalize every aspect of your engine to take advantage of every ounce of power, and make it as efficient as possible.  The end result is an engine that will accelerate faster, have a higher top speed, allow for slightly better maneuverability and will be more energy-efficient when hyperspacin{P30'g.' 'g.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Mil IR Jammer - cheap -"
+outfit "Cheap Military IR Jammer"
 	category "Systems"
 	cost 15000
-	thumbnail "outfit/mil_ir_jammer_-_cheap_-"
+	thumbnail "outfit/cheap_military_ir_jammer"
 	"outfit space" -2
 	mass 2
 	description "This stolen version of the IR Jammer used by the Federation Navy was salvaged from a destroyed Federation Destroyer and then patched up. Highly illegal (and probably a little less capable than it was before its former housing was destroyed), but very inexpensive, it is still going to be far more capable than anything you can buy in the normal civilian market{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
@@ -1163,6 +1203,14 @@ outfit "Battery Pack"
 	"outfit space" -3
 	mass 3
 	description "Most traders who have been working in space for more than a few years have at least one of these fitted onto their vessels.  In over a thousand years this simple design of several interlocking superconductor rings has remained virtually unchanged and has provided extra energy storage for countless numbers of ships, giving them that extra jump that everyone so often needs."
+
+outfit "Cloaking Organ;Polaris v1.1"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/cloaking_organ;polaris_v1.1"
+	"outfit space" -1
+	mass 1
+	description "With a great deal of research and exhaustive trials, the Ver'ash, working with the P'aedt, have improved upon their original Cloaking Organ.  No longer does the organ leave behind a noticeable energy signature, making the cloaked ship almost impossible to detect."
 
 outfit "Nanites"
 	category "undefined"
@@ -1187,6 +1235,12 @@ outfit "WGB (Y)"
 	"gun ports" -1
 	description "Despite not being as powerful as that of an adult Wraith, the graviton beam produced by young Wraith is still a formidable weapon.  It gives pause to smaller ships, and can inflict serious damage on larger ships if unchecked."
 
+outfit "Polaron Multi-Torpedo"
+	category "Ammunition"
+	cost 3000
+	thumbnail "outfit/polaron_multi-torpedo"
+	description "The Polaron Multi-Torpedo takes non-corporeal engineering to the extreme.  The charge and spin of the huge polaron virtual structure is set by the launcher at firing time, much like the simpler Polaron Torpedoes.  However, in the case of the Multi-Torpedo, the chaos mathematics of the field interaction allows the neural net of the Polaris vessel to create virtual sub-structures that get activated shortly after launch, creating five simple Torpedoes all capable of attacking different targets{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
+
 outfit "WGB (A)"
 	category "Guns"
 	cost 1
@@ -1202,10 +1256,10 @@ outfit "Hostility Sense"
 	thumbnail "outfit/hostility_sense"
 	description "No desc req'd"
 
-outfit "IR Missile - illegal -"
+outfit "Illegal IR Missile"
 	category "Ammunition"
 	cost 650
-	thumbnail "outfit/ir_missile_-_illegal_-"
+	thumbnail "outfit/illegal_ir_missile"
 	description "The Infrared Missile uses the simplest of tracking systems to deliver its small payload.  It's not much to look at, but it's cheap and promiscuously available.  The weapon itself can be loaded into a number of aftermarket launchers, including several highly illegal handheld ones used by Rebellion Vacuum Soldiers.  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
 outfit "Sigma Mass Addition"
@@ -1225,22 +1279,38 @@ outfit "WGB (C)"
 	"gun ports" -1
 	description "The children of the Wraith use their underdeveloped beams to divert the courses of small meteors in games of skill and dexterity.  They're not much good for anything else."
 
-outfit "Physical Sense Size"
+outfit "Physical Sense"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/physical_sense_size"
+	thumbnail "outfit/physical_sense"
 	description "No desc req'd"
 
-outfit "Topographic Sense"
+outfit "Thorium Reactor - ionisation"
+	category "Systems"
+	cost 400000
+	thumbnail "outfit/thorium_reactor_-_ionisation"
+	"outfit space" -15
+	mass 15
+	description "This is what happens when you own a dodgy Thorium Reactor from 'Joe's Magic Thorium Reactor Saleyard(tm)'.  Having forked over your hard earned, you'll be willing to bet you'll find yourself getting kicked royally in the bum as your cheapo Thorium Reactor blows.  You will probably be able to limp into port, so long as no pirates notice that you have little chance of evading them.  Of course, if you want to sell it before this happens, be our guest."
+
+outfit "Rebel Cloaking Device - legal"
+	category "Systems"
+	cost 3500000
+	thumbnail "outfit/rebel_cloaking_device_-_legal"
+	"outfit space" -15
+	mass 15
+	description "With the help of Polaris scientists and engineers, the Rebels were able to build cloaking devices that fold the fabric of space around a ship, leaving it undetectable by any current sensor array.  More than a few undercover Rebel ships have been fitted with this upgrade as an insurance policy against Bureau discovery."
+
+outfit "Vell-os Area Map"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/topographic_sense"
+	thumbnail "outfit/vell-os_area_map"
 	description "With your telepathic senses, you can reach out and observe the physical nature of the universe around.  The further out you get, the harder it is to make out distinctive features, but it does allow you a greater understanding of the local area of the universe than any human map."
 
-outfit "Area Map"
+outfit "Area Map - Vell-os"
 	category "Special"
 	cost 0
-	thumbnail "outfit/area_map"
+	thumbnail "outfit/area_map_-_vell-os"
 	description "Placeholder text to prevent error from appearing on start-up. This description is never seen by the player."
 
 outfit "Fuel Transfer"
@@ -1249,18 +1319,24 @@ outfit "Fuel Transfer"
 	thumbnail "outfit/fuel_transfer"
 	description "No desc req'd"
 
-outfit "Rebel Radar Jam"
+outfit "Rebel Radar Jammer"
 	category "Systems"
 	cost 125000
-	thumbnail "outfit/rebel_radar_jam"
+	thumbnail "outfit/rebel_radar_jammer"
 	"outfit space" -4
 	mass 4
 	description "Unlike their Federation counterparts, the Rebels have rushed this piece of equipment into production to make it standard throughout their fleet.  Already all the capital ships carry them, and it will not be long before the heavy interceptors get them also.  Of course, the Rebel fleet is much smaller than that of the Federation, so it is a lot easier to get all the new technology out to its ships{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Anti-Matter Reactor"
+outfit "Polaron Torpedo;fire whilst cloaked"
+	category "Ammunition"
+	cost 2600
+	thumbnail "outfit/polaron_torpedo;fire_whilst_cloaked"
+	description "Having no mass, the Polaron Torpedo is a masterpiece of non-corporeal engineering.  The charge and spin of the huge polaron virtual structure is set by the launcher at firing time.  The chaos mathematics of the field interaction is calculated by the neural net of the Polaris vessel, which makes sure that the field will collapse in such a way that it will steer toward the target from the tube.  A tiny field generator hovering in the middle of the torpedo modifies the field strengths to correct for mid-flight target variations{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
+
+outfit "Matter/Antimatter Reactor"
 	category "Systems"
 	cost 5000000
-	thumbnail "outfit/anti-matter_reactor"
+	thumbnail "outfit/matter/antimatter_reactor"
 	"outfit space" -15
 	mass 15
 	description "Humanity has been trying to figure out ways of controlling a matter/anti-matter reaction so as to gain access to an enormous, virtually undepletable energy source for nearly two millennia.  When P'Ardandt discovered that particular high energy frequency EM fields could be used to 'resonate' with varying sized particles of matter and anti-matter, the matter/anti-matter reactor became a reality, ensuring near-limitless power to any machine connected to it{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
@@ -1271,18 +1347,18 @@ outfit "Distract Sensors"
 	thumbnail "outfit/distract_sensors"
 	description "As your abilities grow, you are soon able to discern the workings of guided missiles from background space.  It is a simple matter of twisting the surrounding space to confuse them."
 
-outfit "Rdr Mssl Launcher - disabling -"
+outfit "Disabling Radar Missile Launcher"
 	category "undefined"
 	cost 20000
-	thumbnail "outfit/rdr_mssl_launcher_-_disabling_-"
+	thumbnail "outfit/disabling_radar_missile_launcher"
 	"outfit space" -7
 	mass 7
 	description "Many Auroran warriors have taken the basic GLiMMER radar missile launchers and modified them to launch the modified disable-only radar missiles they use in their many space-based duels.  The only main difference is a slightly wider bore so that the extra sensors required to sense ship activity can fit."
 
-outfit "Bomb"
+outfit "Bureau Bomb Outfit"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/bomb"
+	thumbnail "outfit/bureau_bomb_outfit"
 	description "With a sudden whump, you realize that nobody escapes the Bureau that easily.  As the expanding gases engulf your body you wish you had never gotten yourself involved with the Bureau in the first place..."
 
 outfit "Civilian IR Jammer"
@@ -1301,16 +1377,24 @@ outfit "Pirate Jammer"
 	mass 5
 	description "This is another Olaf Greyshoulders special.  He took the recent Federation improvements in radar countermeasures and combined them with their already excellent infra-red systems.  The end result is a little bulkier, but performs both jobs admirably.  'Free traders' from all over are buying it, and Olaf is making a quiet killing{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Exotic Ships & Weaps License"
-	category "undefined"
-	cost 100000
-	thumbnail "outfit/exotic_ships_&_weaps_license"
-	description "Exotic Ships & Weapons License:  The Holder of this License is able to purchase those ships and items classed as 'Exotic Ships' or as 'Exotic Weapons' and all items of any other classification as classified by the Federation Security Council{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
+outfit "Map"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/map"
+	description "No desc req'd"
 
-outfit "Hellhound Mssl"
+outfit "Thorium Reactor - bomb"
+	category "Systems"
+	cost 400000
+	thumbnail "outfit/thorium_reactor_-_bomb"
+	"outfit space" -15
+	mass 15
+	description "Warning klaxons sound as the safeguards on your Thorium Reactor begin to catastrophically fail.  As explosions engulf your ship, you curse yourself for buying a cheap knock-off instead of the real thing..."
+
+outfit "Hellhound Missile"
 	category "Ammunition"
 	cost 1500
-	thumbnail "outfit/hellhound_mssl"
+	thumbnail "outfit/hellhound_missile"
 	description "Without a doubt, this is one of the most devastating missiles out there.  Although technically radar-guided, it will burn through most forms of radar jamming, making it nearly impossible to shake, and it lasts just a little too long before detonating.  With an excellent turn rate and a hefty payload, the hellhound missile is an excellent addition to any arsenal.  Requires: Missile Weapons {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 outfit "Military IR Jammer"
@@ -1329,10 +1413,10 @@ outfit "Rebel IR Jammer"
 	mass 2
 	description "Stolen from the Federation military by General Cade 'Sundown' Smart, this system has been tinkered with by Donald Chick and his staff of engineers, and while they have made a few minor improvements, the end result is barely different from the original Federation designs in effectiveness{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Military Radar Jam"
+outfit "Military Radar Jammer"
 	category "Systems"
 	cost 125000
-	thumbnail "outfit/military_radar_jam"
+	thumbnail "outfit/military_radar_jammer"
 	"outfit space" -4
 	mass 4
 	description "This is a much higher power version of the Civilian Radar Jammer.  It creates a lot more sensor interference and so is correspondingly much better at confusing the incoming missiles.  This system has recently been tested against the Aurorans radar missiles and has shown itself to be enormously effective, but it has not yet been issued to all Federation capital ships.  Requires: Protective Technologies {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}"
@@ -1345,19 +1429,19 @@ outfit "Nil'kemorya Jammer"
 	mass 2
 	description "Unlike their civilian counterparts, the ships of the Nil'kemorya are forced to deal with hostile forces quite often.  To help them deal with the problem, P'aedt scientists and Ver'ash engineers have come up with this system that detects the electron movements common to most guidance systems and then shorts them out by creating an electromagnetic field in the surrounding space that is directly inverse to the fields of the incoming missiles{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
-outfit "Med Bl Turret - illegal -"
+outfit "Illegal Medium Blaster Turret"
 	category "Turrets"
 	cost 35000
-	thumbnail "outfit/med_bl_turret_-_illegal_-"
+	thumbnail "outfit/illegal_medium_blaster_turret"
 	"outfit space" -30
 	mass 30
 	"turret mounts" -1
 	description "The Medium Blaster really comes into its own when it becomes turreted.  Combined with sophisticated Glenn:Cyber targeting scopes, these weapons score easy hits on all but the smallest space vessels.  The Medium Blaster Turret does tend to lag a little on the faster capital ships.  The IDA Frigate mounted two of these batteries as standard.  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
-outfit "T0 Strength Level"
+outfit ";T0 Strength"
 	category "Systems"
 	cost 0
-	thumbnail "outfit/t0_strength_level"
+	thumbnail "outfit/;t0_strength"
 	description "Mighty beyond the understanding of even the Vell-os of old, your telepathic capabilities afford you protection against all but the most destructive of forces in the universe, and even they are often survivable."
 
 outfit "Auroran IR Jammer"
@@ -1382,18 +1466,18 @@ outfit "Heavy Weapons License"
 	thumbnail "outfit/heavy_weapons_license"
 	description "Heavy Weapons License:  The Holder of this License is able to purchase the following items classed as 'Heavy Weapons' by the Federation Security Council: Medium Blaster, Medium Blaster Turret, Heavy Blaster Turret (subject to military approval), Quad Light Blaster Turret (also requires 'Protective Technologies License' and subject to military approval), Thunderhead Lance."
 
-outfit "Civilian Radar Jam"
+outfit "Civilian Radar Jammer"
 	category "Systems"
 	cost 40000
-	thumbnail "outfit/civilian_radar_jam"
+	thumbnail "outfit/civilian_radar_jammer"
 	"outfit space" -2
 	mass 2
 	description "Like the IR Jammer, this system is a cheap, low power rip-off of the military models.  It works by flooding the space directly surrounding your ship with incoherent signals.  Unfortunately, due to the low power of this model (which has more to do with legal restrictions than any engineering faults), many missiles still manage to get through.  Requires: Protective Technologies License{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
-outfit "Auroran Radar Jam"
+outfit "Auroran Radar Jammer"
 	category "Systems"
 	cost 125000
-	thumbnail "outfit/auroran_radar_jam"
+	thumbnail "outfit/auroran_radar_jammer"
 	"outfit space" -10
 	mass 10
 	description "Only recently have the Aurorans managed to develop the technology to have any effect against radar guided missiles.  They were able to salvage an old Federation radar counter-measures package and deconstruct it.  The capabilities of the resulting system are still years behind those of the Federation, but it is better than nothing{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
@@ -1408,7 +1492,7 @@ outfitter "Common Outfits"
 	"IR Missile Launcher"
 	"IR Missile"
 	"Radar Missile Launcher"
-	"Grav Missile Launcher"
+	"Gravimetric Missile Launcher"
 	"Radar Missile"
 	"Gravimetric Missile"
 	"Etheric Wake Missile Launcher"
@@ -1418,13 +1502,13 @@ outfitter "Common Outfits"
 	"Stellar Grenade Launcher"
 	"Stellar Grenade"
 	"Polaron Cannon"
-	"Ion Cannon"
+	"Ionic Particle Cannon"
 	"Fusion Pulse Cannon"
 	"Raven Rocket"
 	"Fusion Pulse Turret"
 	"Wraithii"
 	"Capacitor Pulse Laser"
-	"Biorelay Laser"
+	"BioRelay Laser"
 	"Polaron Torpedo Tube"
 	"Polaron Torpedo"
 	"Viper Bay"
@@ -1441,11 +1525,11 @@ outfitter "Common Outfits"
 	"Manta Bay"
 	"Manta"
 	"Hail Chaingun"
-	"Chaingun Ammo"
+	"Chaingun Ammunition"
 	"100mm Fixed Railgun"
 	"150mm Fixed Railgun"
 	"200mm Fixed Railgun"
-	"Turreted Railgun 100mm"
+	"100mm Turreted Railgun"
 	"EMP Torpedo Tube"
 	"EMP Torpedo"
 	"Fusion Reactor"
@@ -1469,175 +1553,175 @@ outfitter "Common Outfits"
 	"Shield Organelles"
 	"Afterburner"
 	"Port & Polish"
-	"Carbon Fiber -degraded -"
-	"Map"
-	"Hellhound Mssl Launcher"
-	"Exotic License - forged -"
+	"Carbon Fiber - degraded"
+	"Map; Fed/Pol"
+	"Hellhound Missile Launcher"
+	"Exotic Ships & Weapons License"
 	"Transmission Jammer"
-	"IFF Projector - Moash -"
+	"Moash IFF Projector"
 	"Overdrive"
-	"T1 Strength Level"
+	";T1 Strength"
 	"Sigma Mass Expansion"
 	"Wraith Cannon"
-	"Rebel Cloaking Device"
-	"Carbon Fiber - cheap -"
-	"Mil Rdr Jammer - cheap -"
-	"Exotic License - forged -"
+	"Rebel Cloaking Device - illegal"
+	"Cheap Carbon Fiber"
+	"Cheap Military Radar Jammer"
+	"Forged Exotic Ships & Weapons License"
 	"Vectored Thrust"
-	"Sigma Elec. Rewiring"
+	"Sigma Electrical Rewiring"
 	"Horizontal Booster"
-	"Ion Cannon - illegal -"
-	"Suth All Damp"
-	"Fusion Turret - disabling -"
+	"Illegal Ionic Particle Cannon"
+	"Sutherland Alluvial Dampener"
+	"Disabling Fusion Pulse Turret"
 	"Fission Reactor"
-	"Map"
-	"Medium Blaster - illegal -"
-	"IR Mssl Lnchr - illegal -"
-	"Rdr Mssl Lnchr - illegal -"
-	"T5 Strength Level"
+	"Map; Sol/Kel'ar Iy only"
+	"Illegal Medium Blaster"
+	"Illegal IR Missile Launcher"
+	"Illegal Radar Missile Launcher"
+	";T5 Strength"
 	"Pirate Valkyrie Upgrade"
-	"Radar Missile - disabling -"
-	"Thorium Reactor - cheap -"
-	"T4 Strength Level"
+	"Disabling Radar Missile"
+	"Cheap Thorium Reactor"
+	";T4 Strength"
 	"Anaconda Bay"
-	"Starbridge Upgrade"
+	"Chrome Valk Upgrade"
 	"Rebel Valkyrie Upgrade"
-	"T3 Strength Level"
+	";T3 Strength"
 	"Anaconda Bay"
-	"Fission Reactor - faulty -"
+	"Fission Reactor - disabled"
 	"Repair Droids"
 	"Cargo Retool"
 	"Rebel Viper Bay"
 	"Viper Bay"
 	"Viper Bay"
-	"T2 Strength Level"
+	";T2 Strength"
 	"Rebel Viper Bay"
-	"Hvy Bl Turret - illegal -"
-	"Telekinetic Boost ze"
+	"Illegal Heavy Blaster Turret"
+	"Telekinetic Boost"
 	"Mass Retool"
 	"Pirate Viper Bay"
 	"Rebel Viper Bay"
 	"Rebel Viper Bay"
-	"Cloaking Device"
+	"Fed Cloaking Device"
 	"Pirate Viper Bay"
 	"Sensor Boost"
 	"Phoenix Bay"
 	"Phoenix Bay"
-	"Drop Bear Repellant"
+	"Drop Bear Repellent"
 	"Sensor Boost"
 	"Firebird Bay"
-	"Sigma Mount Reinf."
-	"Exotic License - forged -"
+	"Sigma Mount Reinforcement"
+	"Forged Exotic Ships & Weapons License"
 	"Sensor Boost"
 	"Firebird Bay"
 	"Firebird"
 	"Rebel Viper"
 	"Sensor Boost"
-	"Pirate Th-head Bay"
-	"Map"
-	"IFF Projector - Federation -"
+	"Pirate Thunderhead Bay"
+	"Map; Reb/Pir/Aur"
+	"Federation IFF Projector"
 	"Storm Chaingun"
-	"Polaron Torpedo Tube"
-	"Polaron Multi-Torp Tube"
+	"Polaron Torpedo Tube;fire whilst cloaked"
+	"Polaron Multi-Torpedo Tube;fire whilst cloaked"
 	"Anaconda"
 	"Fusion Pulse Battery"
-	"Wraithii"
-	"Radar Missile - illegal -"
+	"Wraithii;fire whilst cloaked"
+	"Illegal Radar Missile"
 	"Wraithii"
 	"Thunderhead Lance"
-	"Polaron Multi-Torp Tube"
-	"Wraith Cannon"
+	"Polaron Multi-Torpedo Tube"
+	"Wraith Cannon;fire whilst cloaked"
 	"Pirate Viper"
 	"Pirate Viper Bay"
 	"Tunnelling Organ"
 	"Pirate Viper"
-	"Dr Ralph's Map"
-	"Polaron Multi-Torp"
+	"Dr Ralph's Exploration Map"
+	"Polaron Multi-Torpedo;fire whilst cloaked"
 	"Rebel Starbridge Upgrade"
-	"BioRelay Laser Turret"
+	"Turreted BioRelay Laser"
 	"Asteroid Scoop"
-	"Ion Cannon - User modified -"
-	"Fission Reactor - cheap -"
-	"Flower of Spring"
-	"Cloaking Organ"
-	"Mining Laser"
+	"User modified Ionic Particle Cannon"
+	"Cheap Fission Reactor"
+	"Flower Of Spring"
+	"Cloaking Organ;Polaris v1.0"
+	"Asteroid Mining Laser"
 	"Rebel Viper"
 	"Summer Bloom"
-	"Wr Fast Jump"
-	"Carbon Fiber - degraded -"
+	"Wraith Fast Jump"
+	"Carbon Fiber - degraded"
 	"Light Cannon"
 	"Autumn Petal"
-	"Wr Cloak"
-	"Multi-Jump Organ"
+	"Wraith Cloaking Device"
+	"Multi-Jumping Organ"
 	"Viper"
 	"Winter Tempest"
 	"Capital Warships License"
-	"Qd Lt Turret - illegal -"
-	""
+	"Illegal Quad Light Blaster Turret"
+	";Krypt mind attack"
 	"Dart"
 	"Ion Dissipator"
 	"Capital Ships License"
 	"Phoenix"
-	"Divisable Mind"
-	"Protective Tech License"
+	"Create Dart"
+	"Protective Technologies License"
 	"Marine Platoon"
 	"Fighter Bay License"
 	"Pirate Thunderhead"
 	"Pirate Starbridge Upgrade"
-	"Solar Panel"
+	"Solar Panels"
 	"Missile Weapons License"
 	"Sigma Engine Tune-up"
-	"Mil IR Jammer - cheap -"
+	"Cheap Military IR Jammer"
 	"Solar Lance"
 	"Battery Pack"
-	"Cloaking Organ"
+	"Cloaking Organ;Polaris v1.1"
 	"Rebel Viper"
 	"Nanites"
 	"Wraithii"
-	"Carbon Fiber - degraded -"
+	"Carbon Fiber - degraded"
 	"TripHammer"
 	"WGB (Y)"
 	"Wraith Cannon"
-	"Polaron Multi-Torp"
+	"Polaron Multi-Torpedo"
 	"Viper"
 	"WGB (A)"
 	"Hostility Sense"
-	"IR Missile - illegal -"
+	"Illegal IR Missile"
 	"Sigma Mass Addition"
 	"WGB (C)"
-	"Physical Sense Size"
-	"Thorium Reactor"
+	"Physical Sense"
+	"Thorium Reactor - ionisation"
 	"Phoenix"
-	"Rebel Cloaking Device"
-	"Topographic Sense"
-	"Area Map"
+	"Rebel Cloaking Device - legal"
+	"Vell-os Area Map"
+	"Area Map - Vell-os"
 	"Fuel Transfer"
-	"Rebel Radar Jam"
-	"Polaron Torpedo"
+	"Rebel Radar Jammer"
+	"Polaron Torpedo;fire whilst cloaked"
 	"Anaconda"
-	"Anti-Matter Reactor"
+	"Matter/Antimatter Reactor"
 	"Distract Sensors"
-	"Rdr Mssl Launcher - disabling -"
-	"Bomb"
+	"Disabling Radar Missile Launcher"
+	"Bureau Bomb Outfit"
 	"Civilian IR Jammer"
 	"Pirate Jammer"
-	"Exotic Ships & Weaps License"
+	"Exotic Ships & Weapons License"
 	"Pirate Viper"
 	"Map"
-	"Rebel Radar Jam"
-	"Thorium Reactor"
-	"Hellhound Mssl"
+	"Rebel Radar Jammer"
+	"Thorium Reactor - bomb"
+	"Hellhound Missile"
 	"Military IR Jammer"
 	"Rebel IR Jammer"
 	"Tunnelling Organ"
 	"Rebel Viper"
-	"Military Radar Jam"
+	"Military Radar Jammer"
 	"Nil'kemorya Jammer"
-	"Med Bl Turret - illegal -"
-	"T0 Strength Level"
+	"Illegal Medium Blaster Turret"
+	";T0 Strength"
 	"Auroran IR Jammer"
 	"Polaris Jammer"
 	"Heavy Weapons License"
 	"Firebird"
-	"Civilian Radar Jam"
-	"Auroran Radar Jam"
+	"Civilian Radar Jammer"
+	"Auroran Radar Jammer"

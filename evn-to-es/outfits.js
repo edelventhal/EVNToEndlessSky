@@ -175,7 +175,7 @@ OutfitPorter.prototype.port = function( dataJsonPath, pluginsFolder )
 
 OutfitPorter.prototype._getOutfitName = function( outfit )
 {
-    return outfit.data.ShortName.replace( /\\n/g, " " );
+    return outfit.name.replace( /\\n/g, " " );
 };
 
 OutfitPorter.prototype._getCategory = function( data )
