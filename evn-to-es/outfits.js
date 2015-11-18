@@ -1,5 +1,6 @@
 /*global require*/
 /*global module*/
+/*global console*/
 
 var fs = require( "fs" );
 var portUtility = require( "./portUtility.js" );
@@ -134,8 +135,11 @@ OutfitPorter.prototype.port = function( dataJsonPath, pluginsFolder )
     //we need to make a lookup object for the descriptions
     var descLookup = portUtility.getDescLookup( evndata );
 
-    //and we'll put the string result here
-    var result = "";
+    //we will also need to make a lookup object for any weap resources that outf needs
+    var weapLookup = portUtility.getLookupForType( evndata, "wëap" );
+
+    //we'll append to this Endless Sky data array as we parse through everything
+    var esData = portUtility.createESData();
 
     //go through all the outfits
     var outfitLookup = {};
@@ -155,7 +159,7 @@ OutfitPorter.prototype.port = function( dataJsonPath, pluginsFolder )
                 desc = descObj.data.Description;
                 desc = desc.replace( /\r/g, " " ).replace( /\n/g, " " ).replace( /\"/g, "'" );
             }
-            result += this._outfitToString( outfit.id, outfitName, outfit.data, desc ) + "\n";
+            esData.append( this._outfitToEsData( outfit.id, outfitName, outfit.data, desc, weapLookup ) );
         
             outfitLookup[ outfitName ] = true;
         }
@@ -163,14 +167,14 @@ OutfitPorter.prototype.port = function( dataJsonPath, pluginsFolder )
 
     //now we need to add them all to an outfits list. this is temporary, it will need to be changed later,
     //putting them all into different technology level / government buckets
-    result += "outfitter \"Common Outfits\"\n";
+    esData.add( "outfitter", "Common Outfits", 0 );
     for ( outfitIndex = 0; outfitIndex < outfits.length; outfitIndex++ )
     {
-        result += "\t\"" + this._getOutfitName( outfits[ outfitIndex ] ) + "\"\n";
+        esData.add( this._getOutfitName( outfits[ outfitIndex ] ) );
     }
 
     //write them to a text file
-    portUtility.savePluginData( pluginsFolder, "outfits", result );
+    portUtility.savePluginData( pluginsFolder, "outfits", esData.toString() );
 };
 
 OutfitPorter.prototype._getOutfitName = function( outfit )
@@ -187,19 +191,22 @@ OutfitPorter.prototype._getCategory = function( data )
     return this.categoryStrings[ data.ModType ];
 };
 
-OutfitPorter.prototype._outfitToString = function( id, name, data, description )
+OutfitPorter.prototype._outfitToEsData = function( id, name, data, description, weapLookup )
 {
-    var str = "outfit \"" + name + "\"\n";
-    str += "\tcategory \"" + this._getCategory( data ) + "\"\n";
-    str += "\tcost " + data.Cost + "\n";
-    str += "\tthumbnail " + "\"outfit/" + name.replace( / /g, "_" ).toLowerCase() + "\"\n"; //for now
+    var esData = portUtility.createESData();
+    
+    esData.add( "outfit", name, 0 );
+    
+    esData.add( "category", this._getCategory( data ), 1 );
+    esData.add( "cost", data.Cost, 1 );
+    esData.add( "thumbnail", "outfit/" + name.replace( / /g, "_" ).toLowerCase(), 1 );
     
     //endless sky doesn't care about certain tags existing or not, and blindly shows whatever tags exist
     //so, we don't want to add a tag if it has a value of 0
     if ( data.Mass !== 0 )
     {
-        str += "\t\"outfit space\" " + ( -1 * data.Mass ) + "\n";
-        str += "\tmass " + data.Mass + "\n";
+        esData.add( "outfit space", -1 * data.Mass , 1);
+        esData.add( "mass", data.Mass, 1 );
     }
     
     //TODO - maximum count (data.Max). does ES not have this?
@@ -207,22 +214,122 @@ OutfitPorter.prototype._outfitToString = function( id, name, data, description )
     //weapons
     if ( data.ModType === 1 )
     {
-        var flag = data.Flags.charAt( data.Flags.length - 1 );
-        if ( flag === "1" )
-        {
-            str += "\t\"gun ports\" " + "-1" + "\n";
-        }
-        else if ( flag === "2" )
-        {
-            str += "\t\"turret mounts\" " + "-1" + "\n";
-        }
-        //TODO - required crew? it's in ES, not in EV
+        esData.append( this._weapToEsData( name, data, weapLookup ) );
+    }
+    
+    esData.add( "description", description, 1 );
+    
+    return esData;
+};
+
+/*
+Sample wëap data
+{
+	"id": "234",
+	"name": "Radar Missile",
+	"flags": "0",
+	"data": {
+		"Reload": 30,
+		"Count": 110,
+		"MassDmg": 40,
+		"EnergyDmg": 20,
+		"Guidance": 1,
+		"Speed": 1100,
+		"AmmoType": 7,
+		"Graphic": 4,
+		"Inaccuracy": 1,
+		"Sound": 13,
+		"Impact": 650,
+		"ExplodType": 0,
+		"ProxRadius": 4,
+		"BlastRadius": 20,
+		"Flags": "8002",
+		"Seeker": "000a",
+		"SmokeSet": -1,
+		"Decay": 0,
+		"Particles": 2,
+		"PartVel": 30,
+		"PartLifeMin": 50,
+		"PartLifeMax": 60,
+		"PartColor": "00a0a080",
+		"BeamLength": 0,
+		"BeamWidth": 0,
+		"Falloff": 0,
+		"BeamColor": "00000000",
+		"CoronaColor": "00000000",
+		"SubCount": 0,
+		"SubType": -1,
+		"SubTheta": 0,
+		"SubLimit": 0,
+		"ProxSafety": 0,
+		"Flags2": "1000",
+		"Ionization": 0,
+		"HitParticles": 12,
+		"HitPartLife": 13,
+		"HitPartVel": 850,
+		"HitPartColor": "00ffbf00",
+		"Recoil": 0,
+		"ExitType": 2,
+		"BurstCount": 0,
+		"BurstReload": 0,
+		"JamVuln1": 0,
+		"JamVuln2": 100,
+		"JamVuln3": 0,
+		"JamVuln4": 0,
+		"Flags3": "0000",
+		"Durability": 8,
+		"GuidedTurn": 60,
+		"MaxAmmo": -1,
+		"LiDensity": 0,
+		"LiAmplitude": 0,
+		"IonizeColor": "00000000",
+		"Unused": 0
+	}
+}
+*/
+OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup )
+{
+    var esData = portUtility.createESData();
+    
+    var flag = data.Flags.charAt( data.Flags.length - 1 );
+    if ( flag === "1" )
+    {
+        esData.add( "gun ports", -1, 1 );
+    }
+    else if ( flag === "2" )
+    {
+        esData.add( "turret mounts", -1, 1 );
+    }
+    esData.add( "weapon capacity", -1 * data.Mass, 1 );
+    //TODO - required crew? it's in ES, not in EV
+    
+    var weap = weapLookup[ data.ModVal ];
+    if ( !weap )
+    {
+        console.log( "WARNING: Unable to find wëap resource of ID " + data.ModVal + " for oütf: " + name );
+    }
+    else
+    {
+        esData.add( "weapon" );
+        
+        weap = weap.data;
+        esData.add( "sprite", "projectile/blaster", 2 );
+        esData.add( "sound", "blaster", 2 );
+        esData.add( "hit effect", "blaster impact", 2 );
+        esData.add( "inaccuracy", weap.Inaccuracy, 2 );
+        esData.add( "velocity", weap.Speed / 200, 2 ); //hmmm, not sure how this, accel, and drag will work... 200 is arbitrary
+        esData.add( "acceleration", 0, 2 );
+        esData.add( "drag", 0, 2 );
+        esData.add( "lifetime", weap.Count * 2, 2 ); //converting 30fps into 60fps
+        esData.add( "reload", weap.Reload * 2, 2 ); //converting 30fps to 60fps
+        esData.add( "firing energy", 0, 2 ); //evn did not have energy
+        esData.add( "firing heat", 0, 2 ); //evn did not have heat
+        esData.add( "shield damage", weap.EnergyDmg, 2 );
+        esData.add( "hull damage", weap.MassDmg, 2 );
         
     }
     
-    str += "\tdescription \"" + description +  "\"\n";
-    
-    return str;
+    return esData;
 };
 
 module.exports = new OutfitPorter();
