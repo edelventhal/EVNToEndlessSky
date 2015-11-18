@@ -11,13 +11,13 @@ var PngRounder = function()
     //min(width,height) of the image, so a value of 0.5 would create a circle.
     //generally, you want values above 0.5, since that creates a rounded rect.
     //values <= 0.5 create smaller and smaller circles
-    this.radiusFactor = 0.55;
+    this.radiusFactor = 0.45;
     
     //how far in we bring the edge (crop). this is also multiplied by the same
     //dimension value as the radiusFactor. 0.5 would crop the entire image.
     //remember this is cropped from both sides of the image, so total amount cropped
     //is 2 * this value.
-    this.edgeSizeFactor = 0.05;
+    this.edgeSizeFactor = 0.1;
 };
 
 //rounds all the PNGs found in the array of search paths. if the search paths
