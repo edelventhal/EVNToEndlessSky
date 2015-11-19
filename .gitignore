@@ -35,3 +35,6 @@ novaSourceData/
 #You can include helpful tools in the repo for convenience, but they should not be checked in
 #ex: MissionComputer (reads EVN data), Rezilla (reads Mac OS resource forks and exports the data to XML)
 externalTools/
+
+#I have a giant master sound file I don't want to check in
+novaExports/sounds/allSounds.aif
