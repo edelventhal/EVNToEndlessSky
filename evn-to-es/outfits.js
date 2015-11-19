@@ -1,6 +1,7 @@
 /*global require*/
 /*global module*/
 /*global console*/
+/*global __filename*/
 
 var fs = require( "fs" );
 var portUtility = require( "./portUtility.js" );
@@ -138,6 +139,9 @@ OutfitPorter.prototype.port = function( dataJsonPath, pluginsFolder )
     //we will also need to make a lookup object for any weap resources that outf needs
     var weapLookup = portUtility.getLookupForType( evndata, "wëap" );
 
+    //manual porting data
+    var manualData = JSON.parse( fs.readFileSync( __filename.substring( 0, __filename.lastIndexOf( "/" ) ) + "/manualData/outfits.json", "utf8" ) );
+
     //we'll append to this Endless Sky data array as we parse through everything
     var esData = portUtility.createESData();
 
@@ -159,7 +163,7 @@ OutfitPorter.prototype.port = function( dataJsonPath, pluginsFolder )
                 desc = descObj.data.Description;
                 desc = desc.replace( /\r/g, " " ).replace( /\n/g, " " ).replace( /\"/g, "'" );
             }
-            esData.append( this._outfitToEsData( outfit.id, outfitName, outfit.data, desc, weapLookup ) );
+            esData.append( this._outfitToEsData( outfit.id, outfitName, outfit.data, desc, weapLookup, manualData ) );
         
             outfitLookup[ outfitName ] = true;
         }
@@ -191,7 +195,7 @@ OutfitPorter.prototype._getCategory = function( data )
     return this.categoryStrings[ data.ModType ];
 };
 
-OutfitPorter.prototype._outfitToEsData = function( id, name, data, description, weapLookup )
+OutfitPorter.prototype._outfitToEsData = function( id, name, data, description, weapLookup, manualData )
 {
     var esData = portUtility.createESData();
     
@@ -214,7 +218,7 @@ OutfitPorter.prototype._outfitToEsData = function( id, name, data, description, 
     //weapons
     if ( data.ModType === 1 )
     {
-        esData.append( this._weapToEsData( name, data, weapLookup ) );
+        esData.append( this._weapToEsData( name, data, weapLookup, manualData ) );
     }
     
     esData.add( "description", description, 1 );
@@ -287,7 +291,7 @@ Sample wëap data
 	}
 }
 */
-OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup )
+OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup, manualData )
 {
     var esData = portUtility.createESData();
     
@@ -312,10 +316,32 @@ OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup )
     {
         esData.add( "weapon" );
         
+        //default data
+        var visualData =
+        {
+            "sprite": "projectile/" + name.toLowerCase().replace( " ", "_" ),
+            "sound": name.toLowerCase().replace( " ", "_" ),
+            "hit effect": "blaster impact"
+        };
+        
+        //manually entered data
+        var md = manualData[ "wëap" ][ name ];
+        if ( md )
+        {
+            if ( typeof( md ) === "string" )
+            {
+                md = manualData[ "wëap" ][ md ];
+            }
+            else
+            {
+                visualData = md;
+            }
+        }
+        
         weap = weap.data;
-        esData.add( "sprite", "projectile/blaster", 2 );
-        esData.add( "sound", "blaster", 2 );
-        esData.add( "hit effect", "blaster impact", 2 );
+        esData.add( "sprite", visualData.sprite, 2 );
+        esData.add( "sound", visualData.sound, 2 );
+        esData.add( "hit effect", visualData[ "hit effect" ], 2 );
         esData.add( "inaccuracy", weap.Inaccuracy, 2 );
         esData.add( "velocity", weap.Speed / 200, 2 ); //hmmm, not sure how this, accel, and drag will work... 200 is arbitrary
         esData.add( "acceleration", 0, 2 );

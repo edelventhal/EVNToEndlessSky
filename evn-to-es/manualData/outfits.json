@@ -1,0 +1,149 @@
+{
+    "wëap":
+    {
+        "Light Blaster":
+        {
+            "sprite": "projectile/light_blaster",
+            "sound": "light_blaster",
+            "hit effect": "blaster impact"
+        },
+        "Light Blaster Turret": "Light Blaster",
+        "Medium Blaster":
+        {
+            "sprite": "projectile/medium_blaster",
+            "sound": "medium_blaster",
+            "hit effect": "blaster impact"
+        },
+        "Medium Blaster Turret": "Medium Blaster",
+        "Heavy Blaster":
+        {
+            "sprite": "projectile/heavy_blaster",
+            "sound": "heavy_blaster",
+            "hit effect": "blaster impact"
+        },
+        "Heavy Blaster Turret": "Heavy Blaster",
+        "Quad Light Blaster Turret":
+        {
+            "sprite": "projectile/light_blaster",
+            "sound": "quad_light_blaster",
+            "hit effect": "blaster impact"
+        },
+        "IR Missile Launcher":
+        {
+            "sprite": "projectile/ir_missile",
+            "sound": "ir_missile",
+            "hit effect": "blaster impact"
+        },
+        "Radar Missile Launcher":
+        {
+            "sprite": "projectile/radar_missile",
+            "sound": "radar_missile",
+            "hit effect": "blaster impact"
+        },
+        "Gravimetric Missile Launcher":
+        {
+            "sprite": "projectile/gravimetric_missile",
+            "sound": "gravimetric_missile",
+            "hit effect": "blaster impact"
+        },
+        "Etheric Wake Missile Launcher":
+        {
+            "sprite": "projectile/etheric_wake",
+            "sound": "etheric_wake",
+            "hit effect": "blaster impact"
+        },
+        "Raven Rocket Pod":
+        {
+            "sprite": "projectile/raven_rocket",
+            "sound": "raven_rocket",
+            "hit effect": "blaster impact"
+        },
+        "Raven Rocket Turret": "Raven Rocket Pod",
+        "Stellar Grenade Launcher":
+        {
+            "sprite": "projectile/stellar_grenade",
+            "sound": "stellar_grenade",
+            "hit effect": "blaster impact"
+        },
+        "Polaron Cannon":
+        {
+            "sprite": "projectile/polaron_cannon",
+            "sound": "polaron_cannon",
+            "hit effect": "blaster impact"
+        },
+        "Ionic Particle Cannon":
+        {
+            "sprite": "projectile/ionic_particle_cannon",
+            "sound": "ion_cannon",
+            "hit effect": "blaster impact"
+        },
+        "Fusion Pulse Cannon":
+        {
+            "sprite": "projectile/fusion_pulse_cannon_bolt",
+            "sound": "fusion_pulse_cannon",
+            "hit effect": "blaster impact"
+        },
+        "Fusion Pulse Turret": "Fusion Pulse Cannon",
+        "Wraith Cannon":
+        {
+            "sprite": "projectile/wraithii",
+            "sound": "wraithii",
+            "hit effect": "blaster impact"
+        },
+        "Capacitor Pulse Laser":
+        {
+            "sprite": "projectile/pulse_laser",
+            "sound": "pulse_laser",
+            "hit effect": "blaster impact"
+        },
+        "BioRelay Laser":
+        {
+            "sprite": "projectile/biorelay_laser",
+            "sound": "biorelay_laser",
+            "hit effect": "blaster impact"
+        },
+        "Polaron Torpedo Tube":
+        {
+            "sprite": "projectile/polaron_torpedo",
+            "sound": "polaron_torpedo",
+            "hit effect": "blaster impact"
+        },
+        "Hail Chaingun":
+        {
+            "sprite": "projectile/hail_chaingun",
+            "sound": "hail_chaingun",
+            "hit effect": "blaster impact"
+        },
+        "100mm Fixed Railgun":
+        {
+            "sprite": "projectile/100mm_railguns",
+            "sound": "railgun",
+            "hit effect": "blaster impact"
+        },
+        "150mm Fixed Railgun":
+        {
+            "sprite": "projectile/fixed_railgun_150mm",
+            "sound": "railgun",
+            "hit effect": "blaster impact"
+        },
+        "200mm Fixed Railgun":
+        {
+            "sprite": "projectile/fixed_railgun_250mm",
+            "sound": "railgun_150",
+            "hit effect": "blaster impact"
+        },
+        "400mm Fixed Railgun":
+        {
+            "sprite": "projectile/fixed_railgun_400mm",
+            "sound": "railgun_200",
+            "hit effect": "blaster impact"
+        },
+        "100mm Turreted Railgun": "100mm Fixed Railgun",
+        "EMP Torpedo Tube":
+        {
+            "sprite": "projectile/ion_pulse",
+            "sound": "pulse_laser",
+            "hit effect": "blaster impact"
+        }
+    }
+}
