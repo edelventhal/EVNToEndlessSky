@@ -7,8 +7,8 @@
 	"gun ports" -1
 	"weapon capacity" -3
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/light_blaster"
+		"sound" "light_blaster"
 		"hit effect" "blaster impact"
 		"inaccuracy" 9
 		"velocity" 7.5
@@ -31,8 +31,8 @@
 	"turret mounts" -1
 	"weapon capacity" -10
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/light_blaster turret"
+		"sound" "light_blaster turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 7.5
@@ -55,8 +55,8 @@
 	"turret mounts" -1
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/medium_blaster turret"
+		"sound" "medium_blaster turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 5
 		"velocity" 7
@@ -79,8 +79,8 @@
 	"turret mounts" -1
 	"weapon capacity" -45
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/heavy_blaster turret"
+		"sound" "heavy_blaster turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 5
 		"velocity" 6.5
@@ -103,8 +103,8 @@
 	"turret mounts" -1
 	"weapon capacity" -20
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/light_blaster"
+		"sound" "quad_light_blaster"
 		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 10
@@ -127,8 +127,8 @@
 	"gun ports" -1
 	"weapon capacity" -8
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/medium_blaster"
+		"sound" "medium_blaster"
 		"hit effect" "blaster impact"
 		"inaccuracy" 4
 		"velocity" 7
@@ -150,8 +150,8 @@
 	"mass" 5
 	"weapon capacity" -5
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/ir_missile"
+		"sound" "ir_missile"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 6.75
@@ -179,8 +179,8 @@
 	"mass" 7
 	"weapon capacity" -7
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/radar_missile"
+		"sound" "radar_missile"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 5.5
@@ -202,8 +202,8 @@
 	"mass" 10
 	"weapon capacity" -10
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/gravimetric_missile"
+		"sound" "gravimetric_missile"
 		"hit effect" "blaster impact"
 		"inaccuracy" 3
 		"velocity" 5.5
@@ -239,8 +239,8 @@
 	"mass" 7
 	"weapon capacity" -7
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/etheric_wake"
+		"sound" "etheric_wake"
 		"hit effect" "blaster impact"
 		"inaccuracy" 3
 		"velocity" 4.5
@@ -270,8 +270,8 @@
 	"mass" 5
 	"weapon capacity" -5
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/raven_rocket"
+		"sound" "raven_rocket"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 7.5
@@ -293,8 +293,8 @@
 	"mass" 15
 	"weapon capacity" -15
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/raven_rocket turret"
+		"sound" "raven_rocket turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 6.5
@@ -316,8 +316,8 @@
 	"mass" 3
 	"weapon capacity" -3
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/stellar_grenade"
+		"sound" "stellar_grenade"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -346,8 +346,8 @@
 	"gun ports" -1
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/polaron_cannon"
+		"sound" "polaron_cannon"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 0
@@ -370,8 +370,8 @@
 	"gun ports" -1
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/ionic_particle_cannon"
+		"sound" "ion_cannon"
 		"hit effect" "blaster impact"
 		"inaccuracy" 4
 		"velocity" 0
@@ -394,8 +394,8 @@
 	"gun ports" -1
 	"weapon capacity" -6
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/fusion_pulse_cannon_bolt"
+		"sound" "fusion_pulse_cannon"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 6
@@ -424,8 +424,8 @@
 	"turret mounts" -1
 	"weapon capacity" -20
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/fusion_pulse turret"
+		"sound" "fusion_pulse turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 4
 		"velocity" 5.5
@@ -454,8 +454,8 @@
 	"gun ports" -1
 	"weapon capacity" -40
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/pulse_laser"
+		"sound" "pulse_laser"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -478,8 +478,8 @@
 	"gun ports" -1
 	"weapon capacity" -15
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/biorelay_laser"
+		"sound" "biorelay_laser"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -501,8 +501,8 @@
 	"mass" 25
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/polaron_torpedo"
+		"sound" "polaron_torpedo"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 6.5
@@ -530,8 +530,8 @@
 	"mass" 75
 	"weapon capacity" -75
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/viper_bay"
+		"sound" "viper_bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 2
@@ -559,8 +559,8 @@
 	"mass" 75
 	"weapon capacity" -75
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/anaconda_bay"
+		"sound" "anaconda_bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 1.75
@@ -588,8 +588,8 @@
 	"mass" 80
 	"weapon capacity" -80
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/firebird_bay"
+		"sound" "firebird_bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 1.75
@@ -617,8 +617,8 @@
 	"mass" 80
 	"weapon capacity" -80
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/phoenix_bay"
+		"sound" "phoenix_bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 1.5
@@ -646,8 +646,8 @@
 	"mass" 10
 	"weapon capacity" -10
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/wraithii"
+		"sound" "wraithii"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 9.25
@@ -669,8 +669,8 @@
 	"mass" 90
 	"weapon capacity" -90
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/thunderhead_bay"
+		"sound" "thunderhead_bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0.75
@@ -698,8 +698,8 @@
 	"mass" 40
 	"weapon capacity" -40
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/manta_bay"
+		"sound" "manta_bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 2.5
@@ -728,8 +728,8 @@
 	"gun ports" -1
 	"weapon capacity" -4
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/hail_chaingun"
+		"sound" "hail_chaingun"
 		"hit effect" "blaster impact"
 		"inaccuracy" 3
 		"velocity" 9
@@ -758,8 +758,8 @@
 	"gun ports" -1
 	"weapon capacity" -15
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/100mm_railguns"
+		"sound" "railgun"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 10
@@ -782,8 +782,8 @@
 	"gun ports" -1
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/fixed_railgun_150mm"
+		"sound" "railgun"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 8.65
@@ -806,8 +806,8 @@
 	"gun ports" -1
 	"weapon capacity" -35
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/fixed_railgun_250mm"
+		"sound" "railgun_150"
 		"hit effect" "blaster impact"
 		"inaccuracy" 3
 		"velocity" 7.4
@@ -830,8 +830,8 @@
 	"turret mounts" -1
 	"weapon capacity" -30
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/100mm_turreted railgun"
+		"sound" "100mm_turreted railgun"
 		"hit effect" "blaster impact"
 		"inaccuracy" 3
 		"velocity" 8.7
@@ -853,8 +853,8 @@
 	"mass" 20
 	"weapon capacity" -20
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/ion_pulse"
+		"sound" "pulse_laser"
 		"hit effect" "blaster impact"
 		"inaccuracy" 3
 		"velocity" 3.75
@@ -1056,8 +1056,8 @@
 	"mass" 10
 	"weapon capacity" -10
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/hellhound_missile launcher"
+		"sound" "hellhound_missile launcher"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 5
@@ -1170,8 +1170,8 @@
 	"gun ports" -1
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/illegal_ionic particle cannon"
+		"sound" "illegal_ionic particle cannon"
 		"hit effect" "blaster impact"
 		"inaccuracy" 4
 		"velocity" 0
@@ -1202,8 +1202,8 @@
 	"turret mounts" -1
 	"weapon capacity" -20
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/disabling_fusion pulse turret"
+		"sound" "disabling_fusion pulse turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 5
 		"velocity" 4.5
@@ -1240,8 +1240,8 @@
 	"gun ports" -1
 	"weapon capacity" -10
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/illegal_medium blaster"
+		"sound" "illegal_medium blaster"
 		"hit effect" "blaster impact"
 		"inaccuracy" 4
 		"velocity" 7
@@ -1263,8 +1263,8 @@
 	"mass" 5
 	"weapon capacity" -5
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/illegal_ir missile launcher"
+		"sound" "illegal_ir missile launcher"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 6.75
@@ -1286,8 +1286,8 @@
 	"mass" 7
 	"weapon capacity" -7
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/illegal_radar missile launcher"
+		"sound" "illegal_radar missile launcher"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 5.5
@@ -1375,8 +1375,8 @@
 	"mass" 50
 	"weapon capacity" -50
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/rebel_viper bay"
+		"sound" "rebel_viper bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 2
@@ -1405,8 +1405,8 @@
 	"turret mounts" -1
 	"weapon capacity" -60
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/illegal_heavy blaster turret"
+		"sound" "illegal_heavy blaster turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 5
 		"velocity" 6.5
@@ -1434,8 +1434,8 @@
 	"mass" 75
 	"weapon capacity" -75
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/pirate_viper bay"
+		"sound" "pirate_viper bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 1.25
@@ -1489,8 +1489,8 @@
 	"mass" 70
 	"weapon capacity" -70
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/pirate_thunderhead bay"
+		"sound" "pirate_thunderhead bay"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0.75
@@ -1527,8 +1527,8 @@
 	"turret mounts" -1
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/storm_chaingun"
+		"sound" "storm_chaingun"
 		"hit effect" "blaster impact"
 		"inaccuracy" 20
 		"velocity" 6
@@ -1550,8 +1550,8 @@
 	"mass" 27
 	"weapon capacity" -27
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/polaron_torpedo tube;fire whilst cloaked"
+		"sound" "polaron_torpedo tube;fire whilst cloaked"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 6.5
@@ -1573,8 +1573,8 @@
 	"mass" 30
 	"weapon capacity" -30
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/polaron_multi-torpedo tube;fire whilst cloaked"
+		"sound" "polaron_multi-torpedo tube;fire whilst cloaked"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 6.5
@@ -1597,8 +1597,8 @@
 	"turret mounts" -1
 	"weapon capacity" -12
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/fusion_pulse battery"
+		"sound" "fusion_pulse battery"
 		"hit effect" "blaster impact"
 		"inaccuracy" 5
 		"velocity" 4.5
@@ -1633,8 +1633,8 @@
 	"gun ports" -1
 	"weapon capacity" -8
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/thunderhead_lance"
+		"sound" "thunderhead_lance"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 0
@@ -1656,8 +1656,8 @@
 	"mass" 28
 	"weapon capacity" -28
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/polaron_multi-torpedo tube"
+		"sound" "polaron_multi-torpedo tube"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 6.5
@@ -1679,8 +1679,8 @@
 	"mass" 10
 	"weapon capacity" -10
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/wraith_cannon;fire whilst cloaked"
+		"sound" "wraith_cannon;fire whilst cloaked"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 9.25
@@ -1735,8 +1735,8 @@
 	"turret mounts" -1
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/turreted_biorelay laser"
+		"sound" "turreted_biorelay laser"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -1767,8 +1767,8 @@
 	"gun ports" -1
 	"weapon capacity" -25
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/user_modified ionic particle cannon"
+		"sound" "user_modified ionic particle cannon"
 		"hit effect" "blaster impact"
 		"inaccuracy" 4
 		"velocity" 0
@@ -1796,8 +1796,8 @@
 	"thumbnail" "outfit/flower_of_spring"
 	"weapon capacity" 0
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/flower_of spring"
+		"sound" "flower_of spring"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -1828,8 +1828,8 @@
 	"gun ports" -1
 	"weapon capacity" -3
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/asteroid_mining laser"
+		"sound" "asteroid_mining laser"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 5
@@ -1849,8 +1849,8 @@
 	"thumbnail" "outfit/summer_bloom"
 	"weapon capacity" 0
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/summer_bloom"
+		"sound" "summer_bloom"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -1879,8 +1879,8 @@
 	"gun ports" -1
 	"weapon capacity" -2
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/light_cannon"
+		"sound" "light_cannon"
 		"hit effect" "blaster impact"
 		"inaccuracy" 4
 		"velocity" 10
@@ -1900,8 +1900,8 @@
 	"thumbnail" "outfit/autumn_petal"
 	"weapon capacity" 0
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/autumn_petal"
+		"sound" "autumn_petal"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -1935,8 +1935,8 @@
 	"thumbnail" "outfit/winter_tempest"
 	"weapon capacity" 0
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/winter_tempest"
+		"sound" "winter_tempest"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -1965,8 +1965,8 @@
 	"turret mounts" -1
 	"weapon capacity" -20
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/illegal_quad light blaster turret"
+		"sound" "illegal_quad light blaster turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 10
 		"velocity" 10
@@ -2012,8 +2012,8 @@
 	"thumbnail" "outfit/create_dart"
 	"weapon capacity" 0
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/create_dart"
+		"sound" "create_dart"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 2.5
@@ -2096,8 +2096,8 @@
 	"gun ports" -1
 	"weapon capacity" -15
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/solar_lance"
+		"sound" "solar_lance"
 		"hit effect" "blaster impact"
 		"inaccuracy" 5
 		"velocity" 0
@@ -2135,8 +2135,8 @@
 	"mass" 30
 	"weapon capacity" -30
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/nanites"
+		"sound" "nanites"
 		"hit effect" "blaster impact"
 		"inaccuracy" 180
 		"velocity" 6.25
@@ -2156,8 +2156,8 @@
 	"thumbnail" "outfit/triphammer"
 	"weapon capacity" 0
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/triphammer"
+		"sound" "triphammer"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -2180,8 +2180,8 @@
 	"gun ports" -1
 	"weapon capacity" -8
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/wgb_(y)"
+		"sound" "wgb_(y)"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 0
@@ -2210,8 +2210,8 @@
 	"gun ports" -1
 	"weapon capacity" -10
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/wgb_(a)"
+		"sound" "wgb_(a)"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 0
@@ -2254,8 +2254,8 @@
 	"gun ports" -1
 	"weapon capacity" -5
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/wgb_(c)"
+		"sound" "wgb_(c)"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
 		"velocity" 0
@@ -2345,8 +2345,8 @@
 	"mass" 7
 	"weapon capacity" -7
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/disabling_radar missile launcher"
+		"sound" "disabling_radar missile launcher"
 		"hit effect" "blaster impact"
 		"inaccuracy" 1
 		"velocity" 5.5
@@ -2443,8 +2443,8 @@
 	"turret mounts" -1
 	"weapon capacity" -30
 	"weapon"
-		"sprite" "projectile/blaster"
-		"sound" "blaster"
+		"sprite" "projectile/illegal_medium blaster turret"
+		"sound" "illegal_medium blaster turret"
 		"hit effect" "blaster impact"
 		"inaccuracy" 5
 		"velocity" 7
