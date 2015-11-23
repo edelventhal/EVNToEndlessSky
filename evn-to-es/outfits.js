@@ -134,19 +134,22 @@ OutfitPorter.prototype.port = function( dataJsonPath, pluginsFolder )
     var evndata = portUtility.getEvnData( dataJsonPath );
 
     //we need to make a lookup object for the descriptions
-    var descLookup = portUtility.getDescLookup( evndata );
+    this.descLookup = portUtility.getDescLookup( evndata );
 
     //we will also need to make a lookup object for any weap resources that outf needs
-    var weapLookup = portUtility.getLookupForType( evndata, "wëap" );
+    this.weapLookup = portUtility.getLookupForType( evndata, "wëap" );
+
+    //and weapons that use ammo need a convoluted outfit ID lookup to find out how much
+    this.outfitLookup = portUtility.getLookupForType( evndata, "oütf" );
 
     //manual porting data
-    var manualData = JSON.parse( fs.readFileSync( __filename.substring( 0, __filename.lastIndexOf( "/" ) ) + "/manualData/outfits.json", "utf8" ) );
+    this.manualData = JSON.parse( fs.readFileSync( __filename.substring( 0, __filename.lastIndexOf( "/" ) ) + "/manualData/outfits.json", "utf8" ) );
 
     //we'll append to this Endless Sky data array as we parse through everything
     var esData = portUtility.createESData();
 
     //go through all the outfits
-    var outfitLookup = {};
+    var addedOutfits = {};
     var outfits = evndata[ "oütf" ];
     var outfitIndex;
     for ( outfitIndex = 0; outfitIndex < outfits.length; outfitIndex++ )
@@ -154,18 +157,18 @@ OutfitPorter.prototype.port = function( dataJsonPath, pluginsFolder )
         var outfit = outfits[ outfitIndex ];
         var outfitName = this._getOutfitName( outfit );
     
-        if ( !outfitLookup[ outfitName ] ) //TODO - we need to handle the weird duplicates somehow
+        if ( !addedOutfits[ outfitName ] ) //TODO - we need to handle the weird duplicates somehow
         {
-            var descObj = descLookup[ Math.floor( outfit.id ) + 2872 ];
+            var descObj = this.descLookup[ Math.floor( outfit.id ) + 2872 ];
             var desc = "No Description.";
             if ( descObj )
             {
                 desc = descObj.data.Description;
                 desc = desc.replace( /\r/g, " " ).replace( /\n/g, " " ).replace( /\"/g, "'" );
             }
-            esData.append( this._outfitToEsData( outfit.id, outfitName, outfit.data, desc, weapLookup, manualData ) );
+            esData.append( this._outfitToEsData( outfit.id, outfitName, outfit.data, desc ) );
         
-            outfitLookup[ outfitName ] = true;
+            addedOutfits[ outfitName ] = true;
         }
     }
 
@@ -195,7 +198,7 @@ OutfitPorter.prototype._getCategory = function( data )
     return this.categoryStrings[ data.ModType ];
 };
 
-OutfitPorter.prototype._outfitToEsData = function( id, name, data, description, weapLookup, manualData )
+OutfitPorter.prototype._outfitToEsData = function( id, name, data, description )
 {
     var esData = portUtility.createESData();
     
@@ -218,7 +221,12 @@ OutfitPorter.prototype._outfitToEsData = function( id, name, data, description, 
     //weapons
     if ( data.ModType === 1 )
     {
-        esData.append( this._weapToEsData( name, data, weapLookup, manualData ) );
+        esData.append( this._weapToEsData( name, data ) );
+    }
+    //ammunition
+    else if ( data.ModType === 3 )
+    {
+        esData.append( this._ammoToEsData( name, data ) );
     }
     
     esData.add( "description", description, 1 );
@@ -291,9 +299,15 @@ Sample wëap data
 	}
 }
 */
-OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup, manualData )
+OutfitPorter.prototype._weapToEsData = function( name, data )
 {
     var esData = portUtility.createESData();
+    
+    //do nothing for now... this is a fighter bay
+    if ( this.weapLookup[ data.ModVal ] && this.weapLookup[ data.ModVal ].data.Guidance === 99 )
+    {
+        return esData;
+    }
     
     var flag = data.Flags.charAt( data.Flags.length - 1 );
     if ( flag === "1" )
@@ -307,13 +321,26 @@ OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup, manualD
     esData.add( "weapon capacity", -1 * data.Mass, 1 );
     //TODO - required crew? it's in ES, not in EV
     
-    var weap = weapLookup[ data.ModVal ];
+    var weap = this.weapLookup[ data.ModVal ];
     if ( !weap )
     {
         console.log( "WARNING: Unable to find wëap resource of ID " + data.ModVal + " for oütf: " + name );
     }
     else
     {
+        weap = weap.data;
+        
+        if ( weap.AmmoType >= 0 )
+        {
+            var ammoWeapon = this.weapLookup[ weap.AmmoType + 128 ];
+            if ( !ammoWeapon )
+            {
+                console.log( "No ammoWeapon found for: " + (weap.AmmoType + 128) + " name " + name );
+            }
+            var ammoOutfit = this._getOutfitForWeaponAmmo( Math.floor( ammoWeapon.id ) );
+            esData.add( this._weapAmmoString( ammoOutfit.name ), ammoOutfit.data.Max );
+        }
+        
         esData.add( "weapon" );
         
         //default data
@@ -325,12 +352,12 @@ OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup, manualD
         };
         
         //manually entered data
-        var md = manualData[ "wëap" ][ name ];
+        var md = this.manualData[ "wëap" ][ name ];
         if ( md )
         {
             if ( typeof( md ) === "string" )
             {
-                md = manualData[ "wëap" ][ md ];
+                md = this.manualData[ "wëap" ][ md ];
             }
             else
             {
@@ -338,7 +365,6 @@ OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup, manualD
             }
         }
         
-        weap = weap.data;
         esData.add( "sprite", visualData.sprite, 2 );
         esData.add( "sound", visualData.sound, 2 );
         esData.add( "hit effect", visualData[ "hit effect" ], 2 );
@@ -354,6 +380,37 @@ OutfitPorter.prototype._weapToEsData = function( name, data, weapLookup, manualD
         esData.add( "hull damage", weap.MassDmg, 2 );
         
     }
+    
+    return esData;
+};
+
+OutfitPorter.prototype._getOutfitForWeaponAmmo = function( weapId )
+{
+    var outfitId;
+    for ( outfitId in this.outfitLookup )
+    {
+        var outfit = this.outfitLookup[ outfitId ];
+        
+        if ( outfit.data.ModType === 3 && outfit.data.ModVal === weapId )
+        {
+            return outfit;
+        }
+    }
+    
+    console.log( "Could not find outfit for weapId: " + weapId );
+    return null;
+};
+
+OutfitPorter.prototype._weapAmmoString = function( name )
+{
+    return name.toLowerCase() + " capacity";
+};
+
+OutfitPorter.prototype._ammoToEsData = function( name, data )
+{
+    var esData = portUtility.createESData();
+    
+    esData.add( this._weapAmmoString( name ), -1 );
     
     return esData;
 };

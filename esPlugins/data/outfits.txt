@@ -149,6 +149,7 @@
 	"outfit space" -5
 	"mass" 5
 	"weapon capacity" -5
+	"ir missile capacity" 200
 	"weapon"
 		"sprite" "projectile/ir_missile"
 		"sound" "ir_missile"
@@ -169,6 +170,7 @@
 	"category" "Ammunition"
 	"cost" 750
 	"thumbnail" "outfit/ir_missile"
+	"ir missile capacity" -1
 	"description" "The Infrared Missile uses the simplest of tracking systems to deliver its small payload.  It's not much to look at, but it's cheap and promiscuously available.  The weapon itself can be loaded into a number of aftermarket launchers, including several highly illegal handheld ones used by Rebellion Vacuum Soldiers.  Requires: Missile Weapons License{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Radar Missile Launcher"
@@ -178,6 +180,7 @@
 	"outfit space" -7
 	"mass" 7
 	"weapon capacity" -7
+	"radar missile capacity" 150
 	"weapon"
 		"sprite" "projectile/radar_missile"
 		"sound" "radar_missile"
@@ -201,6 +204,7 @@
 	"outfit space" -10
 	"mass" 10
 	"weapon capacity" -10
+	"gravimetric missile capacity" 100
 	"weapon"
 		"sprite" "projectile/gravimetric_missile"
 		"sound" "gravimetric_missile"
@@ -221,6 +225,7 @@
 	"category" "Ammunition"
 	"cost" 1000
 	"thumbnail" "outfit/radar_missile"
+	"radar missile capacity" -1
 	"description" "Radar as a concept and as a useable weapons guidance system has been around since the middle of the twentieth century AD.  As humanity reached for the stars they brought their technology with them, and radar, which is not reliant on a medium for effectiveness, quickly became a necessary tool for guiding missiles.  This modern radar guided missile is a cheap GLiMMER knock-off.  Requires: Missile Weapons License{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Gravimetric Missile"
@@ -229,6 +234,7 @@
 	"thumbnail" "outfit/gravimetric_missile"
 	"outfit space" -1
 	"mass" 1
+	"gravimetric missile capacity" -1
 	"description" "Gravimetric missiles lock onto the mass signature of a target.  They cannot be jammed by any known means, and they carry the biggest payload of any missile on the open market.  They are also far and away the most expensive.  For those willing to pay the price, the Gravimetric missile will almost never miss its target, and will destroy smaller ships with one hit.  Requires: Missile Weapons {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Etheric Wake Missile Launcher"
@@ -238,6 +244,7 @@
 	"outfit space" -7
 	"mass" 7
 	"weapon capacity" -7
+	"etheric wake missile capacity" 75
 	"weapon"
 		"sprite" "projectile/etheric_wake"
 		"sound" "etheric_wake"
@@ -260,6 +267,7 @@
 	"thumbnail" "outfit/etheric_wake_missile"
 	"outfit space" -1
 	"mass" 1
+	"etheric wake missile capacity" -1
 	"description" "Because of the unique graviton emissions of the Wraith, a new targetable fire-and-forget weapon had to be devised to combat them.  The Etheric Wake missile uses a little-known principle of subspace disturbance to track Wraith through their flight path by detecting their wash in space-time.  Since the Wraith and the Polaris both use Etheric Wave hyperdrives (although the Wraith version is much more sophisticated), it has been theorized that this weapon will work well versus Polaris jamming.  Requires: Missile Weapons License"
 
 "outfit" "Raven Rocket Pod"
@@ -269,6 +277,7 @@
 	"outfit space" -5
 	"mass" 5
 	"weapon capacity" -5
+	"raven rocket capacity" 300
 	"weapon"
 		"sprite" "projectile/raven_rocket"
 		"sound" "raven_rocket"
@@ -292,6 +301,7 @@
 	"outfit space" -15
 	"mass" 15
 	"weapon capacity" -15
+	"raven rocket capacity" 300
 	"weapon"
 		"sprite" "projectile/raven_rocket turret"
 		"sound" "raven_rocket turret"
@@ -315,6 +325,7 @@
 	"outfit space" -3
 	"mass" 3
 	"weapon capacity" -3
+	"stellar grenade capacity" 200
 	"weapon"
 		"sprite" "projectile/stellar_grenade"
 		"sound" "stellar_grenade"
@@ -335,6 +346,7 @@
 	"category" "Ammunition"
 	"cost" 100
 	"thumbnail" "outfit/stellar_grenade"
+	"stellar grenade capacity" -1
 	"description" "The Stellar Grenade is a device designed to throw pursuing ships off your tail.  Dropping a few of these little gems out the hatch will keep adversaries off your tail, or make them regret it if they follow you.  Bigger targets will be slowed a little."
 
 "outfit" "Polaron Cannon"
@@ -413,6 +425,7 @@
 	"category" "Ammunition"
 	"cost" 100
 	"thumbnail" "outfit/raven_rocket"
+	"raven rocket capacity" -1
 	"description" "Raven Rockets are the simplest chemical explosive projectile you can get.  They are fast, but they have small payloads and are unguided.  Raven Rockets can be devastating when multiple launch systems are installed, and because they have no active targeting systems most 'Point Defense' systems cannot target them."
 
 "outfit" "Fusion Pulse Turret"
@@ -443,6 +456,7 @@
 	"category" "Ammunition"
 	"cost" 1000
 	"thumbnail" "outfit/wraithii"
+	"wraithii capacity" -1
 	"description" "The polarons for Wraithii are harvested by deep-space mining scoops run by the Tre'pira.  These polarons are then shipped to P'aedt facilities for encapsulation in the mar-graviton field that will hold them until they impact at a speed of greater than 20 kilometers an hour.  Needless to say, the final packets are handled with kid gloves.  It is a testament to the Tre'pira and the P'aedt that no accidents with Wraithii have ever occurred."
 
 "outfit" "Capacitor Pulse Laser"
@@ -500,6 +514,7 @@
 	"outfit space" -25
 	"mass" 25
 	"weapon capacity" -25
+	"polaron torpedo capacity" 40
 	"weapon"
 		"sprite" "projectile/polaron_torpedo"
 		"sound" "polaron_torpedo"
@@ -520,6 +535,7 @@
 	"category" "Ammunition"
 	"cost" 2500
 	"thumbnail" "outfit/polaron_torpedo"
+	"polaron torpedo capacity" -1
 	"description" "Having no mass, the Polaron Torpedo is a masterpiece of non-corporeal engineering.  The charge and spin of the huge polaron virtual structure is set by the launcher at firing time.  The chaos mathematics of the field interaction is calculated by the neural net of the Polaris vessel, which makes sure that the field will collapse in such a way that it will steer toward the target from the tube.  A tiny field generator hovering in the middle of the torpedo modifies the field strengths to correct for mid-flight target variations, and provides the only part of the weapon system that has any mass whatsoever{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Viper Bay"
@@ -528,27 +544,13 @@
 	"thumbnail" "outfit/viper_bay"
 	"outfit space" -75
 	"mass" 75
-	"weapon capacity" -75
-	"weapon"
-		"sprite" "projectile/viper_bay"
-		"sound" "viper_bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 2
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 120
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "A few days is all it takes to convert sections of your ship into a launchbay for Viper fighters.  The conversion comes complete with everything you'll need to refuel, re-arm and service a maximum force of four Vipers.  Requires: Fighter Bay {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Viper"
 	"category" "Ammunition"
 	"cost" 100000
 	"thumbnail" "outfit/viper"
+	"viper capacity" -1
 	"description" "With the rapid development of space flight, it was inevitable that sports (particularly racing) would come to fruition sooner rather than later.  Power Sled racing stood up to the challenge.  A few intrepid hot-rodders noticed that one particular sled, the Viper, took very well to a bit of extra weight in the form of armor and armament.  With a little engine tweaking, these modified Vipers, designated F-23, were selected by the Federation as the mainstay of their fighter wings.  Requires: Fighter Bay {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Anaconda Bay"
@@ -557,27 +559,13 @@
 	"thumbnail" "outfit/anaconda_bay"
 	"outfit space" -75
 	"mass" 75
-	"weapon capacity" -75
-	"weapon"
-		"sprite" "projectile/anaconda_bay"
-		"sound" "anaconda_bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 1.75
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 140
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "Anacondas can provide long-range intercept capability for a vessel.  This bay allows you to outfit a maximum of two of them.  Requires: Fighter Bay {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Anaconda"
 	"category" "Ammunition"
 	"cost" 150000
 	"thumbnail" "outfit/anaconda"
+	"anaconda capacity" -1
 	"description" "The main problem with the Viper as a fighter craft is a complete lack of any form of explosive projectile.  A new variant that has the 'long distance kill' capacity, based on the Viper chassis, has been the Federation's choice of Space Superiority Fighter ever since.  Although this ship, named the Anaconda, suffers from a slightly slower acceleration and top speed than the Viper, its ability to destroy enemy fighters before that fighter can get within gun range more than compensates.  Requires: Fighter Bay {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Firebird Bay"
@@ -586,27 +574,13 @@
 	"thumbnail" "outfit/firebird_bay"
 	"outfit space" -80
 	"mass" 80
-	"weapon capacity" -80
-	"weapon"
-		"sprite" "projectile/firebird_bay"
-		"sound" "firebird_bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 1.75
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 126
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "The Auroran shipwrights can install the electromag catapults for Firebird launching quite quickly.  The conversion also includes the appropriate Firebird housing facilities, allowing for a maximum of six of them{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Firebird"
 	"category" "Ammunition"
 	"cost" 100000
 	"thumbnail" "outfit/firebird"
+	"firebird capacity" -1
 	"description" "Firebirds are the main Auroran fighter.  Their engines are simple, to say the least.  Their task is to protect the Phoenix from attack by smaller fighters such as the Viper, while the Phoenix take on the heavier ships.  The Firebird is slower than the Viper, but not by enough to give the Viper a decisive edge.  Battles between the two often come down to individual skill.  Many a Federation/Auroran border skirmish has come to a halt while the two sides watch a Firebird/Viper dogfight between renowned pilots{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Phoenix Bay"
@@ -615,27 +589,13 @@
 	"thumbnail" "outfit/phoenix_bay"
 	"outfit space" -80
 	"mass" 80
-	"weapon capacity" -80
-	"weapon"
-		"sprite" "projectile/phoenix_bay"
-		"sound" "phoenix_bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 1.5
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 150
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "Phoenix bays are noisy, smelly and generally fairly grimy.  If you can put up with this, you'll have some serious mobile firepower at your disposal, as the bay is capable of housing up to three of these vicious little fighters{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Phoenix"
 	"category" "Ammunition"
 	"cost" 150000
 	"thumbnail" "outfit/phoenix"
+	"phoenix capacity" -1
 	"description" "The Phoenix is yet another example of the Auroran will to survive.  The Phoenix is slow and turns badly.  One would think that it would be target practice for enemy pilots.  It is, but it has one redeeming feature: it has almost as good armor plating as a Thunderhead.  They plough through fire corridors with impunity, and attack in groups to maximize firepower.  The Phoenix can wear a missile from an Anaconda, but a Viper will stay on its tail and pound it mercilessly.  Suffice to say that Phoenix pilots suffer the greatest rate of attrition of any group in the Auroran armed forces{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Wraith Cannon"
@@ -645,6 +605,7 @@
 	"outfit space" -10
 	"mass" 10
 	"weapon capacity" -10
+	"wraithii capacity" 600
 	"weapon"
 		"sprite" "projectile/wraithii"
 		"sound" "wraithii"
@@ -667,27 +628,13 @@
 	"thumbnail" "outfit/thunderhead_bay"
 	"outfit space" -90
 	"mass" 90
-	"weapon capacity" -90
-	"weapon"
-		"sprite" "projectile/thunderhead_bay"
-		"sound" "thunderhead_bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 0.75
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 250
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "The schematics of this Thunderhead bay look impressive, but you're a bit unsure as to how you'll fit it to your current vessel, although adding the capability to launch as many as three Thunderheads from your ship could never hurt.  Requires: Fighter Bay {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Thunderhead"
 	"category" "Ammunition"
 	"cost" 300000
 	"thumbnail" "outfit/thunderhead"
+	"thunderhead capacity" -1
 	"description" "The Thunderhead is so named for its main weapon, the Thunderhead Lance.  The Lance is a solid beam of coherent laser light.  In some ways, the Thunderhead has the worst reputation of any fighting vessel in the Galaxy, not because of turn ratings or levels of firepower, but because this assault fighter is the weapon of choice of pirates, privateers and corsairs throughout known space.  It has enough armor to allow it to go up against large ships, and enough speed to allow it to catch most craft that try to flee.  Requires: Fighter Bay {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Manta Bay"
@@ -696,27 +643,13 @@
 	"thumbnail" "outfit/manta_bay"
 	"outfit space" -40
 	"mass" 40
-	"weapon capacity" -40
-	"weapon"
-		"sprite" "projectile/manta_bay"
-		"sound" "manta_bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 2.5
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 90
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "Mantas require food and water, as well as sunlight.  This bay provides for up to six of them with all of that, plus the required power taps for recharging all their BioRelay lasers{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Manta"
 	"category" "Ammunition"
 	"cost" 500000
 	"thumbnail" "outfit/manta"
+	"manta capacity" -1
 	"description" "A pilot in the Nil'kemorya comes of age at 16.  It is then that he meets the Manta that will be his fighter and personal transport for as long as he lives, no matter how far he advances in rank.  Grown from a DNA sample taken from the pilot when he was initiated into the Nil'kemorya, the Manta will bond with him in a very personal way.  These fighters are not only swift and powerful, they are also the most 'alive' of the Polaris ships, having approximately the same level of sentience as smart dogs.  It incorporates a potent bio-organic laser into its nose as its only weapon{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Hail Chaingun"
@@ -727,6 +660,7 @@
 	"mass" 4
 	"gun ports" -1
 	"weapon capacity" -4
+	"chaingun ammunition capacity" 2000
 	"weapon"
 		"sprite" "projectile/hail_chaingun"
 		"sound" "hail_chaingun"
@@ -747,6 +681,7 @@
 	"category" "Ammunition"
 	"cost" 20
 	"thumbnail" "outfit/chaingun_ammunition"
+	"chaingun ammunition capacity" -1
 	"description" "Simple caseless rounds have been around for longer than most historians can remember, and the production of them is so old-tech as to be almost a backyard occurrence throughout most of Known Space.  The Aurorans in particular produce enormous amounts of it in order to fuel their almost constant war efforts (whether it be against the Federation or amongst themselves){b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
 "outfit" "100mm Fixed Railgun"
@@ -852,6 +787,7 @@
 	"outfit space" -20
 	"mass" 20
 	"weapon capacity" -20
+	"emp torpedo capacity" 20
 	"weapon"
 		"sprite" "projectile/ion_pulse"
 		"sound" "pulse_laser"
@@ -874,6 +810,7 @@
 	"thumbnail" "outfit/emp_torpedo"
 	"outfit space" -4
 	"mass" 4
+	"emp torpedo capacity" -1
 	"description" "The EMP Torpedo was constructed from stolen Federation technology.  It is an awesome weapon, with only two real uses: mass destruction and ionization.  The Pirate Carrier carries four EMP torps as a blockade running tool; simply fire the weapon at the opposing line, and wait for them to scatter like sheep.  Not to be detonated at close range{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Fusion Reactor"
@@ -1055,6 +992,7 @@
 	"outfit space" -10
 	"mass" 10
 	"weapon capacity" -10
+	"hellhound missile capacity" 50
 	"weapon"
 		"sprite" "projectile/hellhound_missile launcher"
 		"sound" "hellhound_missile launcher"
@@ -1262,6 +1200,7 @@
 	"outfit space" -5
 	"mass" 5
 	"weapon capacity" -5
+	"ir missile capacity" 200
 	"weapon"
 		"sprite" "projectile/illegal_ir missile launcher"
 		"sound" "illegal_ir missile launcher"
@@ -1285,6 +1224,7 @@
 	"outfit space" -7
 	"mass" 7
 	"weapon capacity" -7
+	"radar missile capacity" 150
 	"weapon"
 		"sprite" "projectile/illegal_radar missile launcher"
 		"sound" "illegal_radar missile launcher"
@@ -1317,6 +1257,7 @@
 	"category" "Ammunition"
 	"cost" 1250
 	"thumbnail" "outfit/disabling_radar_missile"
+	"disabling radar missile capacity" -1
 	"description" "To allow them to conduct space-based, yet non-lethal duels, the Aurorans have been forced to add some fairly sophisticated sensory equipment to their radar missiles.  The result is a missile with a slightly greater diameter than the basic radar missile design that allows warriors to fight to the utmost of their ability without fear of utterly destroying their opponents."
 
 "outfit" "Cheap Thorium Reactor"
@@ -1373,21 +1314,6 @@
 	"thumbnail" "outfit/rebel_viper_bay"
 	"outfit space" -50
 	"mass" 50
-	"weapon capacity" -50
-	"weapon"
-		"sprite" "projectile/rebel_viper bay"
-		"sound" "rebel_viper bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 2
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 110
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "Mr. Donald Chick and his engineers have spent years trying to adapt the enormous fighter bays so that they can be fitted into the relatively small ships that the Rebels have managed to get their hands on.  With it, you will be able to hold and launch up to four of the upgraded Rebel Vipers.  As far as adaptive engineering solutions go, this one certainly stands up well..."
 
 "outfit" ";T2 Strength"
@@ -1432,21 +1358,6 @@
 	"thumbnail" "outfit/pirate_viper_bay"
 	"outfit space" -75
 	"mass" 75
-	"weapon capacity" -75
-	"weapon"
-		"sprite" "projectile/pirate_viper bay"
-		"sound" "pirate_viper bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 1.25
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 50
-		"reload" 60
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "Pirates know about violence, and the threat of violence.  They also know about hounding individual ships in packs.  However, they also value speed, and the Pirate Viper Bay launches them far faster than any other type of bay outside of Polaris Space, allowing them to swarm over their foes with frightening rapidity.  So despite only being able to house a maximum of two Pirate Vipers, many pirates vessels have at least one.  With one of these bays on board, you'll have a fast pack at your disposal at all times{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Fed Cloaking Device"
@@ -1479,6 +1390,7 @@
 	"category" "Ammunition"
 	"cost" 200000
 	"thumbnail" "outfit/rebel_viper"
+	"rebel viper capacity" -1
 	"description" "When General (ret) Cade 'Sundown' Smart defected to the Rebellion, he brought with him plans for all Federation vessels, and also intelligence on many ships used by other governments.  With this in hand, Donald Chick and his engineers set to work building and upgrading existing ships.  The resulting variant of the Viper is virtually unmatched anywhere in space."
 
 "outfit" "Pirate Thunderhead Bay"
@@ -1487,21 +1399,6 @@
 	"thumbnail" "outfit/pirate_thunderhead_bay"
 	"outfit space" -70
 	"mass" 70
-	"weapon capacity" -70
-	"weapon"
-		"sprite" "projectile/pirate_thunderhead bay"
-		"sound" "pirate_thunderhead bay"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 0.75
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 250
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "The schematics for this Pirate Thunderhead bay look both impressive and practical, but you're a bit unsure as to how you'll fit it to your current vessel, although having the ability to launch three Pirate Thunderheads at your foes could never hurt{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Map; Reb/Pir/Aur"
@@ -1526,6 +1423,7 @@
 	"mass" 25
 	"turret mounts" -1
 	"weapon capacity" -25
+	"chaingun ammunition capacity" 2000
 	"weapon"
 		"sprite" "projectile/storm_chaingun"
 		"sound" "storm_chaingun"
@@ -1549,6 +1447,7 @@
 	"outfit space" -27
 	"mass" 27
 	"weapon capacity" -27
+	"polaron torpedo capacity" 40
 	"weapon"
 		"sprite" "projectile/polaron_torpedo tube;fire whilst cloaked"
 		"sound" "polaron_torpedo tube;fire whilst cloaked"
@@ -1572,6 +1471,7 @@
 	"outfit space" -30
 	"mass" 30
 	"weapon capacity" -30
+	"polaron multi-torpedo capacity" 20
 	"weapon"
 		"sprite" "projectile/polaron_multi-torpedo tube;fire whilst cloaked"
 		"sound" "polaron_multi-torpedo tube;fire whilst cloaked"
@@ -1616,12 +1516,14 @@
 	"category" "Ammunition"
 	"cost" 1050
 	"thumbnail" "outfit/wraithii;fire_whilst_cloaked"
+	"wraithii;fire whilst cloaked capacity" -1
 	"description" "The polarons for Wraithii are harvested by deep-space mining scoops run by the Tre'pira.  These polarons are then shipped to P'aedt facilities for encapsulation in the mar-graviton field that will hold them until they impact at a speed of greater than 20 kilometers an hour.  Needless to say, the final packets are handled with kid gloves.  It is a testament to the Tre'pira and the P'aedt that no accidents with Wraithii have ever occurred."
 
 "outfit" "Illegal Radar Missile"
 	"category" "Ammunition"
 	"cost" 800
 	"thumbnail" "outfit/illegal_radar_missile"
+	"illegal radar missile capacity" -1
 	"description" "Radar as a concept and as a useable weapons guidance system has been around since the middle of the twentieth century AD.  As humanity reached for the stars they brought their technology with them, and radar, which is not reliant on a medium for effectiveness, quickly became a necessary tool for guiding missiles.  This modern radar guided missile is a cheap GLiMMER knock-off.  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
 "outfit" "Thunderhead Lance"
@@ -1655,6 +1557,7 @@
 	"outfit space" -28
 	"mass" 28
 	"weapon capacity" -28
+	"polaron multi-torpedo capacity" 20
 	"weapon"
 		"sprite" "projectile/polaron_multi-torpedo tube"
 		"sound" "polaron_multi-torpedo tube"
@@ -1678,6 +1581,7 @@
 	"outfit space" -10
 	"mass" 10
 	"weapon capacity" -10
+	"wraithii capacity" 600
 	"weapon"
 		"sprite" "projectile/wraith_cannon;fire whilst cloaked"
 		"sound" "wraith_cannon;fire whilst cloaked"
@@ -1698,6 +1602,7 @@
 	"category" "Ammunition"
 	"cost" 200000
 	"thumbnail" "outfit/pirate_viper"
+	"pirate viper capacity" -1
 	"description" "As soon as Comara released the Viper frame on the general market, a few shiploads of frames were bought up by notorious pirate shipwright Olaf Greyshoulders.  He and his crew have totally refitted the shell, and the familiar shape of its advanced armor plating hides a wealth of minor and major improvements to the basic idea.  But, as with all Greyshoulders upgrades, there is a hefty price to pay for the improved model.  It's up to you to decide whether it's worth it{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Tunnelling Organ"
@@ -1718,6 +1623,7 @@
 	"category" "Ammunition"
 	"cost" 3200
 	"thumbnail" "outfit/polaron_multi-torpedo;fire_whilst_cloaked"
+	"polaron multi-torpedo;fire whilst cloaked capacity" -1
 	"description" "The Polaron Multi-Torpedo takes non-corporeal engineering to the extreme.  The charge and spin of the huge polaron virtual structure is set by the launcher at firing time, much like the simpler Polaron Torpedoes.  However, in the case of the Multi-Torpedo, the chaos mathematics of the field interaction allows the neural net of the Polaris vessel to create virtual sub-structures that get activated shortly after launch, creating five simple Torpedoes all capable of attacking different targets{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Rebel Starbridge Upgrade"
@@ -1990,6 +1896,7 @@
 	"category" "Ammunition"
 	"cost" 0
 	"thumbnail" "outfit/dart"
+	"dart capacity" -1
 	"description" "As part of gaining the ability to project small parts of your consciousness out onto the universe, you must prepare yourself for it by deliberately setting apart portions of your telepathic energy by selecting this option."
 
 "outfit" "Ion Dissipator"
@@ -2010,21 +1917,6 @@
 	"category"
 	"cost" 0
 	"thumbnail" "outfit/create_dart"
-	"weapon capacity" 0
-	"weapon"
-		"sprite" "projectile/create_dart"
-		"sound" "create_dart"
-		"hit effect" "blaster impact"
-		"inaccuracy" 0
-		"velocity" 2.5
-		"acceleration" 0
-		"drag" 0
-		"lifetime" 60
-		"reload" 80
-		"firing energy" 0
-		"firing heat" 0
-		"shield damage" -1
-		"hull damage" -1
 	"description" "As your telepathic power swells, you learn a great deal more about how to project your consciousness out upon the universe.  Now, if you choose to prepare yourself correctly by selecting this ability, you can project small parts of your mind into Dart-like receptacles which will act as you command them."
 
 "outfit" "Protective Technologies License"
@@ -2051,6 +1943,7 @@
 	"category" "Ammunition"
 	"cost" 400000
 	"thumbnail" "outfit/pirate_thunderhead"
+	"pirate thunderhead capacity" -1
 	"description" "The Pirate Thunderhead, like its civilian cousin, is so named for its main weapon, the Thunderhead Lance.  Upgraded beyond even the deadly capabilities of the basic Thunderhead, this pirate version has enough armor to allow it to go up against even the largest ships, and enough speed to allow it to stay with most craft that try to flee{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}{b424 '  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Pirate Starbridge Upgrade"
@@ -2199,6 +2092,7 @@
 	"category" "Ammunition"
 	"cost" 3000
 	"thumbnail" "outfit/polaron_multi-torpedo"
+	"polaron multi-torpedo capacity" -1
 	"description" "The Polaron Multi-Torpedo takes non-corporeal engineering to the extreme.  The charge and spin of the huge polaron virtual structure is set by the launcher at firing time, much like the simpler Polaron Torpedoes.  However, in the case of the Multi-Torpedo, the chaos mathematics of the field interaction allows the neural net of the Polaris vessel to create virtual sub-structures that get activated shortly after launch, creating five simple Torpedoes all capable of attacking different targets{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "WGB (A)"
@@ -2235,6 +2129,7 @@
 	"category" "Ammunition"
 	"cost" 650
 	"thumbnail" "outfit/illegal_ir_missile"
+	"illegal ir missile capacity" -1
 	"description" "The Infrared Missile uses the simplest of tracking systems to deliver its small payload.  It's not much to look at, but it's cheap and promiscuously available.  The weapon itself can be loaded into a number of aftermarket launchers, including several highly illegal handheld ones used by Rebellion Vacuum Soldiers.  And you can buy it here without a license, but you had better be wary of Federation scans..{b424 '.  You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' '.'}"
 
 "outfit" "Sigma Mass Addition"
@@ -2321,6 +2216,7 @@
 	"category" "Ammunition"
 	"cost" 2600
 	"thumbnail" "outfit/polaron_torpedo;fire_whilst_cloaked"
+	"polaron torpedo;fire whilst cloaked capacity" -1
 	"description" "Having no mass, the Polaron Torpedo is a masterpiece of non-corporeal engineering.  The charge and spin of the huge polaron virtual structure is set by the launcher at firing time.  The chaos mathematics of the field interaction is calculated by the neural net of the Polaris vessel, which makes sure that the field will collapse in such a way that it will steer toward the target from the tube.  A tiny field generator hovering in the middle of the torpedo modifies the field strengths to correct for mid-flight target variations{P30'.' '.  REQUIRES YOU TO REGISTER EV NOVA'}"
 
 "outfit" "Matter/Antimatter Reactor"
@@ -2344,6 +2240,7 @@
 	"outfit space" -7
 	"mass" 7
 	"weapon capacity" -7
+	"radar missile capacity" 150
 	"weapon"
 		"sprite" "projectile/disabling_radar missile launcher"
 		"sound" "disabling_radar missile launcher"
@@ -2400,6 +2297,7 @@
 	"category" "Ammunition"
 	"cost" 1500
 	"thumbnail" "outfit/hellhound_missile"
+	"hellhound missile capacity" -1
 	"description" "Without a doubt, this is one of the most devastating missiles out there.  Although technically radar-guided, it will burn through most forms of radar jamming, making it nearly impossible to shake, and it lasts just a little too long before detonating.  With an excellent turn rate and a hefty payload, the hellhound missile is an excellent addition to any arsenal.  Requires: Missile Weapons {P30'License' 'License, REQUIRES YOU TO REGISTER EV NOVA'}{b424 ' You stare at this item, and the others around it, for several long, sad moments, knowing that you may never be able to buy any of them ever again.' ''}"
 
 "outfit" "Military IR Jammer"
