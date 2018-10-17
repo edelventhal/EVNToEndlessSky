@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "argv": "0.0.2",
-    "atob": "1.1.2",
+    "atob": ">=2.1.0",
     "xml2js": "0.4.15"
   },
   "license": "MIT"
