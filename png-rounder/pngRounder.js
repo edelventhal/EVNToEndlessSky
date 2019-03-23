@@ -11,13 +11,19 @@ var PngRounder = function()
     //min(width,height) of the image, so a value of 0.5 would create a circle.
     //generally, you want values above 0.5, since that creates a rounded rect.
     //values <= 0.5 create smaller and smaller circles
-    this.radiusFactor = 0.45;
+    //this.radiusFactor = 0.45;
     
     //how far in we bring the edge (crop). this is also multiplied by the same
     //dimension value as the radiusFactor. 0.5 would crop the entire image.
     //remember this is cropped from both sides of the image, so total amount cropped
     //is 2 * this value.
-    this.edgeSizeFactor = 0.1;
+    //this.edgeSizeFactor = 0.1;
+    
+    this.radiusFactor = 1.0;
+    this.edgeSizeFactor = 0.0;
+    
+    //the total distance in RGB values from white we can go when we turn excess pixels transparent
+    this.transparencyRange = 40;
 };
 
 //rounds all the PNGs found in the array of search paths. if the search paths
@@ -72,6 +78,7 @@ PngRounder.prototype._roundPng = function( path, exportPath )
     var radiusFactor = this.radiusFactor;
     var edgeSizeFactor = this.edgeSizeFactor;
     var fileName = path.substring( path.lastIndexOf( "/" ) + 1 );
+    var transparencyRange = this.transparencyRange;
     
     fs.createReadStream( path ).pipe( new PNG({filterType: 4}) ).on('parsed', function()
     {
@@ -94,6 +101,10 @@ PngRounder.prototype._roundPng = function( path, exportPath )
                 var transparentPixel = false;
                 
                 if ( x < imageRect.minX || y < imageRect.minY || x > imageRect.maxX || y > imageRect.maxY )
+                {
+                    transparentPixel = true;
+                }
+                else if ( 255 - this.data[idx] + 255 - this.data[idx+1] + 255 - this.data[idx+2] <= transparencyRange )
                 {
                     transparentPixel = true;
                 }
